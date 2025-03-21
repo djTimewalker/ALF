@@ -1,0 +1,12 @@
+Hei alle sammen, og god morgen
+
+Det er HMS dager her på ALF, og i dag skal jeg vøre med på brannøvelse noen timer.
+
+Jeg har lagt ut noen oppgaver på Discord dere kan begynne å jobbe med
+
+
+---------
+
+* I tillegg til oppgaveteksten,  lag det gjerne slik at top-delen av siden (nav og header) blir værende på toppen av siden (tenk position: ???) slik at menyen ikke forsvinner vekk fra den synlige delen av siden når en scroller.
+
+* Prøv å lage en "Chat boks" med fiksert posisjon på en av sidene, nede til høyre. Gjerne en <div> med et inputfelt, et texttarea, og en knapp sdet står send melding på. Sett bredden og høyden på div'en til å være 200px og en kantlinje rundt på 2px og sort farge, og bakgrunnsfarge lys blå.

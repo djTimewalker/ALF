@@ -1,0 +1,65 @@
+Stylingsoppgaver
+
+Nav-bar linkene:
+* Endre på utseende på linkene slik at de ser ut som "knapper" i stedet for tradisjonelle linker med strek under.
+ 	-> Det kan gjøre ved å fjerne underline-egenskapen på teksten, og kanskje gi hver link en bakgrunnsfarge, og en annen tekstfarge?
+		(Se: https://www.w3schools.com/cssref/pr_text_text-decoration.php )
+	-> et annet alternativ er å bytte ut teksten med små bilder i stedet <img>
+
+---------------
+
+Listene:
+
+Oppgave 1
+Endre teksten på navnene slik at alt står i store bokstaver, og de 3 første skal være farge 'green'
+
+Oppgave 2
+Flytt hele listen slik at den står helt til høyre på siden
+	->  til det bruker vi float, (som er en metode fra sånn cirka steinalderen). Her kan dere forvente dere rar og uventet oppførsel!
+	(https://www.w3schools.com/css/css_float.asp )
+
+Oppgave 3
+Endre bakgrunnsfargen til navnene på landene til en HEKSADESIMAL farge (heksadesimal betyr 16) og skriften til en fin font-type. Sett tekstfargen til en av de pre-definerte (som "red", "green", osv ... )
+( for heksadesimal se: https://www.w3schools.com/css/css_colors_hex.asp )
+
+Endre teksten til alle bynavnene slik at de har en skyggeeffekt (se https://www.w3schools.com/css/css_text_shadow.asp)
+
+Oppgave 4 & 5 innebærer allerede styling for å få endret "bullit" punktet i front av hvert element ...
+
+Oppgave 6
+Lag rammer (border) med tykkelse 2px rundt <dt> elementene, og gi den en farge. Gi samme fargen til teksten i <dd> feltene.
+( se https://www.w3schools.com/css/css_border.asp)
+
+
+-------------------
+
+Tabellene:
+
+Oppgave 1
+Sentrer tabellen horisontalt på siden. (tips -> margin: auto)
+Sett rammer rundt hele tabellen. (tips -> border)
+Sett rammer rundt alle cellene også.
+Legg til litt padding i alle cellene slik at teksten får litt mer luft (-> padding) (se https://www.w3schools.com/css/css_padding.asp)
+Legg til bakgrunnsfarge i cellen med høyest verdi (den med høyest folketall, den med størst areal). (background-color) Bruk hsl for å sette fargen denne gangen (se https://www.w3schools.com/css/css_colors_hsl.asp )
+
+------------------------
+
+Tekstene
+
+Sett en farge på første avsnitt (<p>) i hver seksjon (tips -> alle som er medlem av samme class kan nås, så kanskje de må få en klasse?)
+Sentrer hele section1 horisontalt på siden (text-align: center)
+Skyv hele section 4 over til høyre (-> float: right)
+NB! Merk dere hva som skjer med rekkefølgen og visningen av seksjonene etter det!!
+
+Ekstra utfordring:
+Prøv å finne en måte å endre farge på teksten og bakgrunnen til <p>element nr 2, i hver section ... (tips -> sjekk pseudoelement p:nth-child() )
+
+-------------------------------------
+
+
+
+
+
+
+
+ 

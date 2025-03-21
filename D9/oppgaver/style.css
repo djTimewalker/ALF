@@ -1,0 +1,18 @@
+* {
+    margin: 0
+    padding: 0
+}
+
+main p {
+    color: blue;
+    font-size: 1.25rem;
+}
+
+a:hover,
+a:focus {
+    text-shadow: 0 0 2px black;
+}
+
+h2::before {
+    content: "⭐ "
+}

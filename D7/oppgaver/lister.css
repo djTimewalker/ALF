@@ -1,0 +1,50 @@
+nav li {
+    list-style: none;
+}
+
+li {
+    font-variant: small-caps;
+    color: blue;
+}
+
+a {
+    width: 190px;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    background: orange;
+    padding: 10px 15px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+a:hover,
+a:focus {
+    background: black;
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+.float {
+    float: right;
+}
+
+.countryname {
+    color: #ff2525;
+}
+
+.cities {
+    text-shadow: 0 0 2px;
+}
+
+dt {
+    border: 2px solid red;
+}
+
+dd {
+    color: red;
+}

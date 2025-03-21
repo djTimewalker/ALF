@@ -1,0 +1,36 @@
+table {
+    margin: auto;
+    border: 2px solid red;
+}
+
+tr, th, td {
+    border: 2px dotted blue;
+    padding: 10px 15px;
+}
+
+.largest {
+    background-color:hsl(0, 100%, 50%);
+    color: hsl(0, 100%, 100%)
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    width: 190px;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    background: orange;
+    padding: 10px 15px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+a:hover,
+a:focus {
+    background: black;
+    color: white;
+}

@@ -1,0 +1,58 @@
+Blogg-nettsted
+-----------------
+
+Side 1) Landingsside med velkomstbeskjed og innloggingsfelt
+
+<h1> VELKOMMEN TIL SUPER-BLOGGEN! </h1>
+
+legg til et lite skjema (<form>) med felter for 
+
+-brukernavn <input type="text">
+-passord <input type="password" >
+-knapp "Logg inn" <input type=submit"> 
+
+------------------------------------
+
+Side 2) Side for å legge til ny bloggpost
+
+Overskrift
+
+<h1> Legg til din nye blogg-post! </h1>
+
+Skjema (<form>) med felter for å skrive inn
+
+-Tittel
+-bloggteksten (<textarea>) Lorem20
+-publiseringsdato
+-felt for å velge om blog'en skal være privat/Public
+-knapp for å lagre "Lagre ny post"
+
+---------------------------------------
+
+Side 3) - Oversikt over de siste 10 nye blogpostene som er lagt til
+
+Overskrift
+
+<h1> Oversikt over de 10 siste bloggene som er lagt til: </h1>
+
+
+Lag den manuelt ved å skrive inn teksten som skal vises.
+
+eksempel:
+
+<section>
+	<h2> Blog tittel </h2>
+	<h3> En kort linje om temaet i bloggen </h3>
+	<p> Selve tekstinnholdet i bloggen </p> 
+	<a href=""> Til toppen</a>
+</section>
+
+Sett inn 10 slike sections (som hver representerer 1 blog-post) under hverandre.
+
+NB! Legg til lenker på toppen av siden slik at en kan hoppe ned til de ulike blog-postene, og opp igjen til toppen av siden.
+
+---------------------
+
+Legg til slutt inn en <header> på alle sidene som inneholder navigering (<nav>) mellom de ulike sidene du nå har laget vha
+ 
+<a href=" ... "> Til … </a> 

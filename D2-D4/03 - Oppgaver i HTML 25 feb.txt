@@ -1,0 +1,68 @@
+Oppgaver i HTML tirsdag 25. feb & torsdag 27. feb.
+
+
+Du har fått i oppdrag å utforme et helt nettsted(!) til en kunde -> "Eiendommelig boligformidling A/S". 
+Nettstedet skal til slutt inneholde 4 sider: 
+
+	*	Startside (home/landingpage)
+	*	"Om oss"
+	*	"Prospekter" 
+	*	"Kontakt oss"
+
+
+1) Lag en startside (dette kalles gjerne en 'landingpage'), og kall den index.html
+
+	* den skal ha en overskrift (heading) hvor navnet på firmaet inngår.
+
+	* finn et passende bilde å benytte som logo. Design gjerne en egen logo om du er i det kreative hjørnet, eller bare finn et bilde å bruke på nett. (husk å legge alle filene i samme mappe, for enkelthets skyld). 
+
+	* Prøv å finne på et 'slogan' eller catch-frase. Som f.eks. 
+
+	"Du har drømmen - vi har boligen!". 
+
+	Sett dette som et stort blikkfang. Bruk gjerne overskrift <h1>  
+
+	* se om du klarer å legge til et 'fav-icon' til siden. Favicon er det lille bildet (ikonet) som står foran tittelen oppe i fanen (tab) på nettleseren. Sjekk W3schools og finn informasjon om favicon der (tips: https://www.w3schools.com/html/html_favicon.asp ) Et tips er å finne et lite bilde på 32x32 pixler som du bruker. 
+
+	* Legg til en passende tittel på siden (<title> som viser teksten oppe i fanen, ved siden av fav-icon'et). Husk at <title> ligger oppe i <head> og ikke i <body>
+
+
+2) Lag en "Om oss" side (about page). Kall den om_oss.html
+
+	* Legg til en 4*2 tabell med bilde av de ansatte i cellene i rekke 1 (bortover), og navn, tittel og telefonnummer i rekken under. Finn noen bilder på nett du kan bruke. 
+
+	* Legg til en 'definisjonsliste' (<dl>) med minst 5 ulike punkter (<dt>). En definisjonsliste er en liste som minner om <ul> og <ol> men som består av en liste av uttrykk med en tilhørende forklaringen på uttrykket. Noen eksempler kan være 
+
+	-megler -> person ansvarlig for at handel foregår på en riktig måte
+	-egenkapitalskrav -> Hvor stor andel av en kjøpesum kjøperen selv må stille med
+	-husbanken ->
+	
+	....osv... bruk fantasien.  
+
+
+
+3) Lag en "Prospekter" side og kall den prospekt.html
+
+	* Legg til en 4 * 4 tabell. Hver celle skal inneholde 
+		- et bilde av en leilighet/hus 
+		- navn og telefonnummer på megleren
+		- prisantydning 
+
+   finn noen passende bilder på nett og bruk disse.
+
+
+For alle sider:
+
+4) Legg inn en Meny/navigation-bar øverst på alle sidene, slik at brukeren kan klikke seg rundt fra side til side på nettstedet. Dette kan være en <ul> liste fylt med <li> elementer som hver er en link til den aktuelle siden.
+Typisk slik som dette:
+
+<nav>
+	<ul>
+		<li> <a href="om_oss.html"> Om Oss </a> </li>
+		<li> osv ... </li>
+	</ul>
+</nav>
+
+
+---------------------------------------------------------------------------------
+Den 4. og siste siden ("Kontakt oss") tar vi etter vi har gått igjennom elementet <form> (skjema) over helgen.

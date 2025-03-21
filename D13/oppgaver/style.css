@@ -1,0 +1,59 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+select,
+input {
+    margin-top: 5px;
+}
+
+.top-banner-img,
+.top-banner2-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-img,
+{
+    width: 25%;
+    height: 25%;
+    padding: 25px 25px 25px 0;
+}
+
+.nike-logo-img,
+.adidas-logo-img{
+    width: 250px;
+    height: 160px;
+}
+
+.footer-txt{
+    font-size: 1.25rem;
+}
+.footer-copyright{
+    font-weight: bold;
+    color: purple;
+}
+
+.container-footer-imgs{
+    display: flex;
+    padding: 25px;
+}

@@ -1,0 +1,45 @@
+Ta utgangspunkt i filen dere får utlevert
+
+Først en html oppgave
+
+legg inn linker i hver seksjon for å hoppe opp igjen på toppen av siden … (hint, det har vi gjort før)
+
+
+Dere skal nå øve på å bruke CSS for å style dokumentet
+
+vi begynner med å legge all styling i en egen <style> tag inne i html elementet. Dette style-elementet legges nederst inne i <head>-tagen
+
+
+
+1) Sett farge på alle <h1> headinger til blå 
+
+	h1 {
+		color: blue;
+		background-color: green;
+	}
+
+2) Sett farge på alle <h2> headinger til rød
+3) Sett bakgrunnsfarge på <h6> headingen til å være grønn
+
+4) Sett all teksten (<p>) som ligger under en h3 overskrift til å være kursiv (altså kun den teksten som ligger under h3, ikke alle de andre)
+
+
+		h3 p {
+
+		font-style: italic;
+		}
+
+
+
+5) Det er 2 områder i teksten som er merket med tag'en <span>. Sett bakgrunnsfargen til det <span>-elementet som ligger i område 3 til å være blå.
+
+6) Fjern linjen under teksten i linkene (<a>)
+
+	a {
+  		text-decoration:none;
+	}
+
+7) sett inn et bilde i hver av seksjonene (<img src="> ) bare finn noen bilder på nett, og legg de i samme mappen som de andre filene.
+
+bruk CSS til  sette størrelsen på alle bildene til det samme (bruk width eller height)
+

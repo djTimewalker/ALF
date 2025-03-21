@@ -1,0 +1,18 @@
+..fortsettelse fra sist
+
+
+4) Lag en "Kontakt oss" side og kall den kontakt.html
+
+	* Legg til et skjema (<form> ) med felter hvor brukeren kan legge inn
+		* Fornavn 	<input type="text">
+		* Etternavn
+		* epost 
+		* Telefon
+
+	* Bruk et <label for= > element som ledetekst, eller en vanlig tekstfelt (<p>) foran hvert av input-feltene, slik at brukeren ser hva feltene er ment for.
+
+	* legg til en nedtrekksmeny (<select>) hvor en kan velge type henvendelse det gjelder (feks -Kjøp, -Salg, -Leie, -Klage) hvert av valgene er da et eget <option>
+		
+	* legg til en tekstfelt (<textarea> hvor brukeren kan skrive inn selve henvendelsen.
+		
+	* legg til en Submit-button (som brukeren kan klikke på for å sende inn skjemaet når det er fylt ut. På knappen skal det stå "Send inn". (value="Send inn"). <input type="submit">

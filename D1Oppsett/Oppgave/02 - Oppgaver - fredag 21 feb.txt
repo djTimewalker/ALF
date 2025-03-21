@@ -1,0 +1,39 @@
+Målet for i dag, fredag 21 februar
+
+
+- bli kjent med W3schools nettsiden (World Wide Web Consortium, dokumentasjon om de ulike språk)
+
+- bli kjent med MDN (Mozilla Developer network), dokumentasjon om 
+
+- bli kjent med Online editorer man kan bruke (playcode.io, codepen.io)
+
+- bli kjent med en HTML validator man kan benytte
+
+- laste ned og installere VS Code, som vi skal benytte til det meste her på kurset
+
+- installere noen utvidelser til VS Code som gjør arbeidet med koding enklere for oss
+
+- få en innsikt i hvordan en nettside grovt sett er bygget opp, samt de viktigste og mest brukte elementene (tags)
+
+Praktiske oppgaver
+
+1) Installere VS code med extensions
+
+2) Opprette en html fil, og benytte standardnavnet for filen (index.html)
+
+3) Teste ut de mest brukte elementene vi har vært igjennom (tagsene), og lage minst 3 ulike enkle sider.
+
+a) En enkel presentasjon av seg selv (eller hva som helst av info).
+* En overskrift, heading <h1> - <h6>
+* Noen linjeskifter <br> 
+* Noen horisontale linjer <hr>
+* Noen avsnitt/setninger med tekst <p>
+* Om du har en egen hjemmeside, eller vet om en side du liker veldig godt, kan du legge til en link til denne (tips! <a href="...?"> )
+
+Bruk fantasien, og prøv dere frem litt.
+
+b) Lag en nettside som har en overskrift,
+og en liste (OL eller UL) over filmer, tv-serier, bøker eller spill du liker. (Innholdet er ikke viktig, vi skal bare øve på å lage ulike lister). 
+
+c) Lag en table med informasjon fra forrige oppgave. Se notatene for tips og vink.
+

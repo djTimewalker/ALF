@@ -1,0 +1,36 @@
+.flagSE {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.flagNO {
+    position: sticky;
+    top: 0px;
+}
+
+.flagDK {
+    position: relative;
+    left: 15px;
+    top: 25px;
+}
+
+table {
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+tr, th, td {
+    border: 2px dotted blue;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.flagDK:hover {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}

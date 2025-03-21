@@ -1,0 +1,19 @@
+input[type="email"] {
+    border: 2px solid red;
+}
+
+
+input[type="checkbox"]::after {
+    content: "*) Valgfritt";
+    color: red;
+    padding: 20px;
+
+}
+
+input:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
+
+input:focus {
+    background-color: skyblue;
+}

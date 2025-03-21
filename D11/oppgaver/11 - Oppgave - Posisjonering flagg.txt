@@ -1,0 +1,25 @@
+Her er en enkel fil med noen bilder og en tabell som kan styles. 
+
+* Flytt svenskebildet ned til bunnen av siden i høyre hjørne og FIKSER det der.
+
+* Sørg for at det Norske flagget ikke scroller ut av siden på toppen, men STICKS der oppe...
+
+* Det danske flagget kan dere flytte 15 pixler mot høyre og 30 pixler nedover RELATIVT til der det står opprinnelig...
+
+* Flytt tabellen til en ABSOLUTT plassering på siden (velg koordinater selv), og ellers kan dere style tabellen litt her og der... (kantlinjer, farger, fonter, marger, padding, etc ..)
+
+* Velg ett av flagene, og legg til en hover-effekt når brukeren fører musen over flagget. Gjør det slik at flagget flytter seg 5px mot høyre og 5px oppover når musen er over bildet. ( :hover )
+
+Om bildet eksempelvis har en id lik 'norge' kan en da velge dette elementet ved å skrive
+
+#norge:hover {
+  ... det som skal skje inni her
+  ...
+  } 
+
+
+Husk på de ulike måtene å posisjonere elementer på: FRASS
+
+Fixed, Relative, Absolute, Static og Sticky
+
+og benytt de der det trengs 

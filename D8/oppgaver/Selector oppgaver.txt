@@ -1,0 +1,94 @@
+Oppgave 1: Style ALLE elementene på siden med font farge 'blue' og font size 18px
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Universal Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to CSS</h1>
+    <p>This is a paragraph.</p>
+    <button>Click Me</button>
+</body>
+</html>
+
+________________________________________________________________________________
+
+Oppgave 2: Style alle p elementene slik at de får 'green' farge og bold font
+
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+
+________________________________________________________________________________
+
+Oppgave 3: Style alle elementene som er medlem av klassen 'highlight' slik at de får 'yellow'bakgrunnsfarge.
+
+<p class="highlight">This paragraph should be highlighted.</p>
+<p>This paragraph should not be affected.</p>
+
+_______________________________________________________________________________
+
+Oppgave 4: Sett tekst fargen på elementet som har id'en 'special' til å være 'red'
+
+<p id="special">This is a unique paragraph.</p>
+<p>This is a normal paragraph.</p>
+
+
+__________________________________________________________________________________
+
+Oppgave 5: Gi alle h1 OG h2 elementer font fargen 'blue' og sentrer teksten
+
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+<p>Normal paragraph text.</p>
+
+__________________________________________________________________________________
+
+Oppgave 6: Sett fargen på ALLE p-elementer som ligger inne i en div til 'orange'
+
+<div>
+    <p>This paragraph is inside a div.</p>
+</div>
+<p>This paragraph is outside a div.</p>
+
+___________________________________________________________________________________
+
+Oppgave 7: Sørg for at p elementene som er DIREKTE BARN til et div element, blir 'purple' farge
+
+<div>
+    <p>This is a direct child.</p>
+    <span>
+        <p>This is a nested child.</p>
+    </span>
+</div>
+
+________________________________________________________________________________________
+
+Oppgave 8: Sørg for at FØRSTE p element ETTER et h1 element får font fargen 'grey'
+
+<h1>Heading</h1>
+<p>This paragraph should be gray.</p>
+<p>This paragraph should remain unchanged.</p>
+
+_________________________________________________________________________________________
+
+Oppgave 9: Gi ALLE p elementene som kommer etter et h1 element font fargen 'brown'
+
+<h1>Main Heading</h1>
+<p>This paragraph should be brown.</p>
+<p>This one too.</p>
+
+___________________________________________________________________________________________
+
+Oppgave 10: Style de input feltene som er av type="text" med en 'lightblue' bakgrunnsfarge
+
+<input type="text" placeholder="Text field">
+<input type="password" placeholder="Password field">
+
+
+____________________________________________________________________________________________
+
+
+
+

@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile  h1 {
+    color: red;
+}
+
+.profile {
+    background: yellow;
+    padding: 10px 20px;
+}
+
+#user-name {
+    color: blue;
+}
+
+.bio p {
+    font-size: 14px;
+}
+
+h2 + p {
+    color: green;
+}
+
+input[type="email"] {
+    border: 2px solid blue;
+}
+
+.bio p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button:hover {
+    background: yellow;
+    color: red;
+}

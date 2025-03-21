@@ -1,0 +1,134 @@
+Recap HTML og CSS
+
+Gode vaner og rutiner til alle sider og oppgaver:
+
+➔ Bli vant til å bruke de semantiske <tag>’sene vi har sett på, til å dele inn sidene i passende under-områder
+
+	• <header>
+	• <nav>
+	• <main>
+	• <section>
+	• <aside>
+	• <article>
+	• <details>
+	• <figcaption>
+	• <figure>
+	• <mark>
+	• <address>
+	• <time>
+	• <footer>
+
+➔ Sett egenskaper på HTML-elementene (som class=" " , name=" ", id=" "). Disse bruker vi til å knytte CSS og JavaScript kode til det enkelte HTML-elementet senere.
+
+Oppgaver:
+
+Side 1: Lister – vi øver på alle lister vi kjenner til. Kall siden lister.html
+
+1. ordnet liste, (ol -> ordered list -> ordnet rekkefølge )
+	o Lag en rangert liste over dine 10 favoritt-skuespillere
+
+2. uordnet liste (ul -> unordered list -> tilfeldig rekkefølge)
+	o Lag en handleliste over 10 ting du har lyst på fra Amazon eller en annen butikk.
+
+3. liste med underliste, (liste inne i liste)
+	o Lag en liste over 7 land, med en underliste for hvert land over 3 byer som tilhører det landet.
+
+4. liste med bokstaver i stedet for tall (a. først, b. neste….)(NB!  - sjekk W3schools under https://www.w3schools.com/html/html_lists_ordered.asp)
+	o lag en liste over 10 sorter krydder
+
+5. en liste med romertall i stedet for vanlige tall (I, II, !!!, IV...)
+	o lag en liste med navnet på 5 romerske keisere
+
+6. en definisjonsliste (dl)
+	o lag en dl som lister opp 10 uttrykk vi har lært i utvikling til nå, med tilhørende definisjon/beskrivelse. (eks "CSS – en liste med beskrivelser av hvordan htmlelementer kan styles")
+
+------------------------------------------------------
+
+Side 2: Tabeller – Kall siden for tabeller.html
+
+1. Lag en tabell over europeiske land og byer
+	o land – hovedstad – areal – befolkningsmengde – flagg 
+		i hver sin kolonne
+	o finn info om 10 land og legg det inn i hver sin rad.
+
+2. Utvid tabellen. Legg til en kolonne for verdensdeler, og benytt ‘rowspan’ eller ‘colspan’ til å legge sammen 2 eller flere celler i høyden eller bredden…) (NB! Se https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
+
+------------------------------------------------------
+
+Side 3 – Tekst. Kall siden for tekster.html
+
+1. Lag 5 seksjoner på siden. Sett inn en heading (<h1>) som første element i hver seksjon. Sett så inn 5 ulike paragrafer (<p>) i hver seksjon.
+
+2. Sett klassenavn på hver seksjon ->
+
+	<section class="seksjon1">
+	<section class="seksjon2"> osv…
+
+3. Fyll inn noe tekst i alle <p>-elementene. (Tips: i VS Code kan du skrive Lorem15 og trykke <tab> så setter VS Code automatisk inn 15 viss-vass ord for deg! Kan også bruke annet tall for å få mer/mindre tekst, for eksempel Lorem30)
+
+--------------------------------------------------------
+
+Side 4 – Mediaplayer. Kall siden for mediaplayer.html
+
+1. Lag en side med avspilling av audio eller videoelementer. Legg til passende overskrifter på siden, og gjerne et bilde.
+Bruk <audio> HTML-5 tag’en for å spille av en lydfil, eller <video> tag’en for å spille av en videofil. Vi må først finne en eksempelfil vi kan bruke fra nett. Finn en video-fil som er av typen .mp4 og en lydfil av typen .mp3
+
+Eksempel audio:
+
+	<audio controls= "controls" >
+		<source src= " eksempelnavn.mp3" type= "audio/mpeg">
+		<source src= " eksempelnavn.ogg" type= "audio/ogg">
+		Nettleseren støtter ikke avspilling av dette formatet.
+	</audio>
+
+Eksempel video:
+
+	<video width="640" height="480" controls= "controls" >
+		<source src= " eksempelvideofil.mp4" type= "video/mp4">
+		<source src= " eksempelvideofil.ogg" type= "video/ogg">
+		Nettleseren støtter ikke avspilling av dette formatet.
+	</video>
+
+Vi kan også legge inn en avspiller i selve siden, som spiller av en video fra for eksempel
+YouTube, inne på vår side (embedded). Prøv med en <iframe> tag:
+
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=p7YXXieghto&ab_channel=Torwik"> </iframe>
+
+--------------------------------------------------------------
+
+Side 5 – Bilder & Figurer. Kall siden for bilder.html
+
+1. Legg inn et bilde <img> på siden.
+
+2. Legg inn et annet bilde. Dette bildet skal fungerer som en link når en trykker på det, og skal åpne en av de andre sidene du har laget. (Gjerne link til startsiden).
+
+Eksempel:
+
+	<a href="..navnpåside.html">
+		<img src=".." />
+	</a>
+
+3. Legg inn enda et bilde, men benytt elementtypen <figure> i tillegg denne gangen. Bruk også elementet <figcaption> til å skrive en billedtekst som vises til bildet.
+
+	<figure>
+		<img src=".. " />
+		<figcaption> Bilde av…. </figcaption>
+	</figure>
+
+-------------------------------------------------------------------------
+
+En siste oppgave:
+Legg inn en meny (navigasjon) med linker til de ulike sidene du har laget. Bruk en <a> for hver link. (se tips under). Legg den samme menyen på alle sider slik at en kan manøvrere rundt.
+
+	<nav>
+		<a href= "… ">
+		<a href= "… ">
+	</nav>
+
+Prøv også å legge til en intern-link på minst én av sidene. Som vi tidligere har sett er en internlink et slags bokmerke, slik at du kan hoppe opp eller ned et stykke på den samme siden. Typisk opp til toppen på en side, eller ned til en bestemt seksjon på siden. Det fungerer ved at en navngir det elementet på siden en ønsker å «hoppe til» med en id. Så leder linken til den id’en. Eksempel:
+
+	<div id="spennendeAvsnitt">
+
+Og linken som leder dit:
+
+	<a href="#spennendeAvsnitt"> Hopp ned til det spennende avsnittet!</a> 

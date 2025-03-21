@@ -1,0 +1,38 @@
+nav li {
+    list-style: none;
+}
+
+a {
+    width: 190px;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    background: orange;
+    padding: 10px 15px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+a:hover,
+a:focus {
+    background: black;
+    color: white;
+}
+
+p:nth-child(3) {
+    color: orange;
+    background: purple;
+}
+
+.first {
+    color: green;
+}
+
+.seksjon1 {
+    text-align: center;
+}
+
+.seksjon4 {
+    float: right;
+}

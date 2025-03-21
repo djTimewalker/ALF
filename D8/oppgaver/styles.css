@@ -1,0 +1,42 @@
+#oppgave1 {
+    color: blue;
+    font-size: 18;
+}
+
+#oppgave2 p {
+    color: green;
+    font-weight: bold;
+}
+
+#oppgave3 .highlight {
+    background: yellow;
+}
+
+#oppgave4 #special {
+    color: red;
+}
+
+#oppgave5 h1,h2 {
+    color: blue;
+    text-align: center;
+}
+
+#oppgave6 div p {
+    color: orange;
+}
+
+#oppgave7 div > p {
+    color: purple;
+}
+
+#oppgave8 h1 + p {
+    color: grey;
+}
+
+#oppgave9 h1 ~ p {
+    color: brown;
+}
+
+#oppgave10 input[type="text"] {
+    background: lightblue;
+}

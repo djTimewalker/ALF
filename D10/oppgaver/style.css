@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav a {
+    display: inline-block;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.container {
+    background-color: darkgoldenrod;
+    padding: 10px;
+    border: 1px solid #252525;
+    border-radius: 10px;
+    width: 30vw;
+}
+
+img {
+    width: 30vw;
+}
+
+div > p {
+    font-size: 1.25em;
+    padding-left: 25px;
+}
+
+footer {
+    padding: 25px;
+    font-size: 0.75em;
+}
+
+ul {
+    list-style: "⭐";
+}
+
+ul:nth-child(odd) {
+    color: whitesmoke;
+}
+

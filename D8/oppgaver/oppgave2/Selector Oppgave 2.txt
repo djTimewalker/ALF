@@ -1,0 +1,56 @@
+Oppgave
+
+Ta utgangspunkt i html-koden under:
+
+________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="profile">
+        <h1>Profile Page</h1>
+        <p id="user-name">John Doe</p>
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>I am a web developer passionate about CSS and design.</p>
+            <p>I love experimenting with different styles and making websites look great!</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to send me an email.</p>
+        <input type="email" placeholder="Enter your email">
+        <button>Send</button>
+    </div>
+
+</body>
+</html>
+
+______________________________________________________________
+
+
+Instruksjoner:
+
+1) Bruk universal selectoren til å sette en default (standard) font
+2) Style <h1> som ligger i klassen 'profile' ved å bruke descendant selector, slik at den skiller seg ut (farge)
+3) Sett en bakgrunnsfarge til .profile og legg til litt 'padding' (padding er luft inne i elementet)
+4) Bruk Id selectoren til å gi #user-name en spesiell farge
+5) Bruk descendant selector og sett font-size til 14px, for alle <p> som ligger inne i .bio
+6) Benytt adjacent sibling selector ( + ) for å endre fargen til den FØRSTE p etter en <h2>
+7) Style input feltene som er av typen 'email' slik at de får en blå ramme rundt seg (border).
+
+NB!! Disse har vi ikke sett på enda!! Men prøv gjerne
+
+8) Style den FØRSTE BOKSTAVEN av p elementet inne i klassen .bio slik at den får en ekstra stor font-size (2em) og gjør den ekstra feit (font-weight: bold) 
+
+Hint: Pseudo-element p::first-letter (se https://www.w3schools.com/css/css_pseudo_elements.asp)
+
+9) Få alle knapper til å skifte farge når bruker tar musen over de (hover) 
+
+Hint: Pseudo-klassen button:hover (se https://www.w3schools.com/css/css_pseudo_classes.asp#gsc.tab=0)

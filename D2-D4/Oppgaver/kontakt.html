@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startside</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+</head>
+
+<body>
+    <a href="index.html">
+        <img src="images/banner.svg" alt="Eiendommelig Boligformidling top banner" class="banner-img" width="50%">
+    </a>
+    <section>
+        <nav>
+            <span>| </span>
+            <a href="index.html">Startside</a>
+            <span> || </span>
+            <a href="om_oss.html">Om oss</a>
+            <span> || </span>
+            <a href="prospekt.html">Prospekter</a>
+            <span> || </span>
+            <a href="kontakt.html">Kontakt oss</a>
+            <span> |</span>
+        </nav>
+    </section>
+    <h1>Eiendommelig boligformidling A/S</h1>
+    <h2>[Kontaktskjema]</h2>
+    <p>
+        Ta kontakt med oss ved å fylle ut kontaktskjemaet.
+    </p>
+    <form>
+        <label for="fname">Fornavn:</label>
+        <br>
+        <input type="text" name="fname" id="fname" placeholder="Fornavn" size="20">
+        <br>
+        <label for="enavn">Etternavn:</label>
+        <br>
+        <input type="text" name="enavn" id="enavn" placeholder="Etternavn" size="20">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Email" size="20">
+        <br>
+        <label for="tlf">Telefon:</label>
+        <br>
+        <input type="text" name="tlf" id="tlf" placeholder="Telefonnummer" size="20">
+        <br>
+        <br>
+        <label for="gjelder">Velg hva henvendelsen din gjelder for:</label>
+        <br>
+        <select name="gjelder" id="gjelder">
+            <option value="Kjøp">-Kjøp</option>
+            <option value="Salg">-Salg</option>
+            <option value="Leie">-Leie</option>
+            <option value="Klage">-Klage</option>
+        </select>
+        <br>
+        <br>
+        <label for="kommentar">Tilleggsinformasjon:</label>
+        <br>
+        <textarea name="kommentar" id="kommentar" placeholder="Skriv inn tilleggsinformasjon" rows="5" cols="50"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send inn">
+    </form>
+
+</body>
+
+</html>

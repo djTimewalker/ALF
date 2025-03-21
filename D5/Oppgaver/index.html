@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>ALF Flybestilling</title>
+
+    <style>
+        ul {
+            list-style-type: " | ";
+        }
+        <!-- header { -->
+            <!-- background: url(images/firefly-airplanetakeoff.jpg); -->
+            <!-- background-size: cover; -->
+            <!-- background-repeat: no-repeat; -->
+            <!-- width: 800px; -->
+            <!-- color:white; -->
+        }
+        sup  {
+        color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>ALF Flybestilling</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startside</a></li>
+                <li><a href="sections.html">Seksjoner</a></li>
+                <li><a href="blogg.html">Blogg-nettsted</a></li>
+                <li><a href="index.html">Startside</a></li>
+                <li><a href="index.html">Startside</a></li>
+            </ul>
+        </nav>
+        <img src="images/bing-airtrafficworldview.png" alt="global airplane traffic illustration" width="400">
+    </header>
+
+    <main>
+        <h1>Bestilling</h1>
+        <p>Bestill din neste flyreise hos oss ved å fylle ut skjemaet under</p>
+        <br>
+        <form>
+            <label for="fname">Fornavn: <span>(<sup>*</sup>obligatorisk felt)</span></label><br>
+            <input type="text" id="fname" placeholder="Ditt fornavn" required><br>
+            <label for="ename">Etternavn: <span>(<sup>*</sup>obligatorisk felt)</span></label><br>
+            <input type="text" id="ename" placeholder="Ditt etternavn"required><br>
+            <label for="adress">Adresse:</label><br>
+            <input type="text" id="address" placeholder="Gateadresse"><br>
+            <label for="zipcode">Postnummer</label><br>
+            <input type="text" id="zipcode" name="zipcode" pattern="[0-9]{4}" placeholder="1234"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Skriv inn e-post adresse"><br>
+            <label for="tlf">Telefonnummer:</label><br>
+            <input type="tel" id="tlf" name="tlf" pattern="[0-9]{8}" placeholder="Telefonnummer 8-siffer"><br>
+            <label for="dep">Avreiseflyplass:</label><br>
+            <select name="dep" id="dep"><br>
+                    <option value="Bergen">Bergen</option>
+                    <option value="Stavanger">Stavanger</option>
+                    <option value="Ålesund">Ålesund</option>
+                    <option value="Oslo">Oslo</option>
+            </select>
+            <br>
+            <label for="arr">Tilreise flyplass:</label><br>
+                <select name="arr" id="arr"><br>
+                    <option value="Bergen">Bergen</option>
+                    <option value="Stavanger">Stavanger</option>
+                    <option value="Ålesund">Ålesund</option>
+                    <option value="Oslo">Oslo</option>
+                </select>
+            <br><br>
+            <label for="depdate">Ønsket utreisedato:</label><br>
+            <input type="date" name="depdate" id="depdate"><br>
+            <label for="arrdate">Ønsket hjemreisedato:</label><br>
+            <input type="date" name="arrdate" id="arrdate"><br>
+            <br>
+            <label for="children">Alder:</label><br>
+            <input type="radio" name="age" id="children" value="child">Barn<br>
+            <input type="radio" name="age" id="adult" value="adult">Voksen<br>
+            <input type="radio" name="age" id="senior" value="senior">Honnør<br>
+            <br>
+            <label for="fare">Velg type billett:</label><br>
+            <select name="fare" id="fare">
+                <option value="low">Billig billett</option>
+                <option value="flex">Flex billett</option>
+                <option value="superflex">Super Flex billett</option>
+            </select>
+            <br><br>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Ønsker å få tilsendt nyhetsbrev:</label><br>
+            <br><br>
+            <input type="submit" value="Send inn bestilling">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentDate"></span> - ALF Flybestilling</p>
+        <p>Sidene ble sist oppdatert: <span id="currentDateTime"></span></p>
+    </footer>
+
+    <script>
+        // JavaScript to insert today's date and current time
+        const today = new Date();
+        const date = today.toLocaleDateString(); // Format the date as needed
+        const time = today.toLocaleTimeString(); // Format the time as needed
+        document.getElementById('currentDate').innerText = date;
+        document.getElementById('currentDateTime').innerText = date + ' ' + time;
+
+    </script>
+</body>
+
+</html>

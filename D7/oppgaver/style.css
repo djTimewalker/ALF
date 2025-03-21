@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+    background-color: green;
+}
+
+h2 {
+    color: red;
+}
+
+h3 p {
+    font-style: italic;
+}
+
+h6 {
+    background-color: green;
+}
+
+#omraade3 span {
+    background-color: blue;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 640px;
+}

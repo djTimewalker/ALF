@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+
+    <h2>Oppgave 1:</h2>
+    <div class="container">
+        <p class="solution">Trykk på F12 for å åpne utviklerverktøy og åpne konsollet for å se besvarelsen</p>
+    </div>
+
+    <h2>Oppgave 2:</h2>
+    <button type="button" onclick="render()">Klikk for å starte</button>
+    <div class="container">
+        <p>Du la inn: </p>
+        <p class="solution" id="answer"></p>
+    </div>
+    <br>
+    <br>
+    <hr>
+
+    <h2>Oppgave 3:</h2>
+    <label for="fnavn">Skriv inn ditt fornavn:</label>
+    <input type="text" placeholder="Ola" id="fnavn" required>
+    <label for="mnavn">Skriv inn ditt mellomnavn:</label>
+    <input type="text" placeholder="Askeladden" id="mnavn">
+    <label for="enavn">Skriv inn ditt etternavn:</label>
+    <input type="text" placeholder="Dunk" id="enavn" required>
+    <br>
+    <button onclick="renderNames()">Trykk når du har skrevet inn navn i feltene</button>
+    <br>
+    <br>
+    <div class="container">
+        <p>Du la inn: </p>
+        <div class="solution" id="names"></div>
+    </div>
+    <br>
+    <hr>
+
+    <h2>Oppgave 4:</h2>
+    <h1>Bildeveksler</h1>
+    <p>Klikk på knappene for å bytte ut bildet med et annet bilde</p>
+    <button type="button" id="reset-image-btn">Tilbakestill</button>
+    <button type="button" id="norway-image-btn">Norwegian</button>
+    <button type="button" id="sweden-image-btn">Swedish</button>
+    <button type="button" id="denmark-image-btn">Danish</button>
+    <br>
+    <img class="hero-image" src="images/SpringDaffodils_1920x1080.jpg" alt="hero-image" id="hero-image">
+    <br>
+    <br>
+    <h2>Oppgave 5:</h2>
+    <h3 id="o5-h3">Jeg er en H3</h3>
+    <h4 id="o5-h4">Jeg er en H4</h4>
+    <h5 id="o5-h5">Jeg er en H5</h5>
+    <h6 id="o5-h6">Jeg er en H6</h6>
+    <button type="button" id="o5-btn1">Endre farge på H3</button>
+    <button type="button" id="o5-btn2">Endre farge på H4</button>
+    <button type="button" id="o5-btn3">Endre farge på H5</button>
+    <button type="button" id="o5-btn4">Endre farge på H6</button>
+    <br>
+    <br>
+    <hr>
+    <h2>Oppgave 6:</h2>
+    <label for="textbox">Skriv inn noe: </label>
+    <br>
+    <input type="text" placeholder="skriv i denne tekstboksen" id="textbox" oninput="echo()">
+    <br>
+    <br>
+    <div class="container">
+        <p>Her kommer ekko av det som du skriver inn: </p>
+        <div class="solution" id="echo"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>&copy 2025 - Timewalker</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+:root {
+    --minGlobaleVariabel: brown;
+}
+
+header, footer {
+    --minLokaleVariabel: red;
+}
+

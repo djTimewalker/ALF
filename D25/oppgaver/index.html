@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver - Variabler</title>
+</head>
+<body>
+
+    <h1 id="header">Oppgave 3</h1>
+    <p id="p-lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae hic similique voluptates quo accusantium ducimus?</p>
+    <label for="textbox">Skriv inn en overskrift: </label><br>
+    <input type="text" placeholder="Skriv inn en overskrift" id="textbox">
+    <br><br>
+    <label for="textarea">Legg inn en lengre tekst:</label><br>
+    <textarea name="textarea" id="textarea" rows="4" cols="50" placeholder="Skriv inn en lengre tekst"></textarea>
+    <br><br>
+    <label for="options">Velg en årstid:</label>
+    <select id="options" name="options">
+        <option value="Våren">Våren</option>
+        <option value="Sommeren">Sommeren</option>
+        <option value="høsten">høsten</option>
+        <option value="Vinteren">Vinteren</option>
+    </select>
+    <br><br>
+    <label for="colorpicker">Velg en farge:</label>
+    <input type="color" name="colorpicker" id="colorpicker">
+    <br><br>
+    <label for="datepicker">Velg en dato:</label>
+    <input type="date" name="datepicker" id="datepicker">
+    <br><br>
+    <button type="button" onclick="hentVerdier()">Hent verdier</button>
+    <br>
+    <br>
+
+    <div id="output" class="solution"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+Ta utgangspunkt i de flagg-filene vi hadde - (norsk, svensk og dansk).
+
+Lag en div med width 1000px og height 1000px; (Så har vi litt rom til å flytte på ting).
+
+Legg de tre flaggene inne i diven som <img>
+
+Sett width til omtrent 12% på alle image i css
+
+--------------------
+
+Flexbox
+
+Sett div'en som inneholder bildene til å være av typen flexbox
+
+Øv på å sette bildene til å ligge i 
+	- center
+	-starten av raden
+	- slutten av raden
+	- med jevnt mellomrom
+
+
+-----------
+
+
+
+Utfordring: legg to av flaggene i én egen gruppe (for eksempel <div>) og bruk flexboxen til å skille flaggene fra hverandre slik at gruppen med 2 går til venstre og det enslige flagget går til høyre (justify-content: space-between)
+
+-----------------
+
+Til slutt: Snu flexbox retningen til å være nedover (kolonne) i stedet for bortover (rad) 
+

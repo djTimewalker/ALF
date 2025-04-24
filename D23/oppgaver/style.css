@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+main {
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+img {
+    width: 98vw;
+}
+
+footer {
+    padding: 50px;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo-name-container {
+    display: flex;
+    gap: 20px;
+}
+
+.header-logo-name-container img {
+    width: 150px;
+}
+
+.navbar {
+    list-style: none;
+    font-size: 1.25rem;
+    padding-right: 20px;
+}
+
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav a:active {
+    color: orange;
+}
+
+.parallax1 {
+
+}

@@ -1,0 +1,35 @@
+Mandag 09 oktober - 2023
+
+I dag er det CSS-grid, som er som flexbox, men med flere rader (2 dimensjoner)
+
+Det er 2 måter å utforme layout av en nettside (eller deler av en nettside) vha CSS-Grid:
+
+1) Ved å spesifisere hvilke grid-linjer et grid-item skal starte fra og slutte ved. Både i rad-retningen, og i kolonne-retningen
+
+Eksempelvis ved: 
+	grid-row-start: 2; 	// hvor skal den starte
+        grid-row-end: 4;	// hvor skal den ende
+
+	eller:
+
+	grid-column: span 2; 	// hvor mange felter skal den strekke seg over
+
+2) Den andre måten er å dele layout'en inn i områder (area), og si hvor de ulike grid-item'ene skal legge seg
+
+Eksempelvis:
+	grid-template-areas: 
+        'header header header'
+        'nav content sidebar'
+        'nav footer footer';
+
+	og så si i CSS hvilke items som skal havne i de navngitte orådene over:
+
+	header {
+            grid-area: header;
+        }
+
+
+Det vi skal øve på i dag, er å kopiere de layout'ene som er vist i leksjonsnotatet. Først med grid-linjer for å øve på det, 
+
+og etterpå de samme layout'ene ved å benytte grid-area.
+

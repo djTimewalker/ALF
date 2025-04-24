@@ -1,0 +1,177 @@
+.responsive-navmenu {
+    display: flex;
+    padding: 1rem;
+    margin: 0.8rem;
+    background-image: url('images/Aurora\ Explorers\ logo.png');
+    background-size: 100vw;
+    gap: 10px;
+}
+
+.responsive-navmenu a {
+    color: whitesmoke;
+}
+
+.fb-container {
+    display: flex;
+    height: 50vh;
+}
+
+.fb1 {
+    width: 40%;
+    background-color: lightblue;
+}
+
+.fb2 {
+    width: 60%;
+    background-color: lightcoral;
+}
+
+.fs-hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.fs-hero-image {
+    size: 100dvh;
+}
+
+.fs-hero-h1 {
+    display: flex;
+    font-size: 3vw;
+    justify-content: center;
+}
+
+.responsive-card-container {
+    max-width: 500px;
+    width: 80%;
+    padding: 2em;
+    margin: 1rem;
+    background-color: lightsalmon;
+}
+
+.pro-card-container {
+    max-width: 250px;
+    width: 50%;
+    border: 2px solid lightskyblue;
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px darkgray;
+    padding: 1rem;
+    margin: 0.5 rem;
+}
+
+.pro-card-container:hover {
+    box-shadow: none;
+    border: 5px solid orange;
+    border-radius: 8px;
+}
+
+.pro-card-image {
+    width: 10vw;
+    height: auto;
+}
+
+.flexible-pricing-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.fp-item {
+    background-color: lightgreen;
+    border: 1px solid darkgreen;
+    padding: 1rem;
+    border-radius: 5px;
+    /* flex-grow: 1; */
+    flex: 1;
+    height: 2vh;
+    width: 1vw;
+}
+
+.flexible-pricing-container-extended {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.fp-item1 {
+    flex: 1;
+    background-color: lightblue;
+    padding: 1rem;
+    min-width: 100px;
+    height: 2vh;
+    width: 1vh;
+}
+
+.fp-item2 {
+    flex: 2;
+    background-color: lightcoral;
+    padding: 1rem;
+    min-width: 100px;
+    height: 2vh;
+    width: 1vh;
+}
+.fp-item3 {
+    flex: 3;
+    background-color: lightgoldenrodyellow;
+    padding: 1rem;
+    min-width: 100px;
+    height: 2vh;
+    width: 1vh;
+}
+
+button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 0.25rem;
+    font-size: 1rem;
+    background-color: lightgrey;
+    opacity: 0.7;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    padding: 1rem;
+    height: 10vh;
+    background-color: lightcoral;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.r-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 30vh;
+    background-color: lightslategray;
+    margin: 0 auto;
+    font-size: 2 rem;
+    color: bisque;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-sidebar {
+    background-color: lightsalmon;
+    width: 25vw;
+}
+
+.right-sidebar {
+    background-color: lightblue;
+    width: 75vw;
+}

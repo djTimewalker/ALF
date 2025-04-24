@@ -1,0 +1,14 @@
+body {
+    background-color: aliceblue;
+}
+
+button {
+    padding: 1em 1.5em;
+    margin: 20px 0;
+    background-color: orchid;
+}
+
+.solution {
+    border: 1px solid red;
+    border-radius: 10px;
+}

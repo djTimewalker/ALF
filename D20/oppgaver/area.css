@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'nav main sidebar'
+    'nav footer footer';
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+header {
+    grid-area: header;
+    border: 1px solid lightseagreen;
+
+}
+
+nav {
+    grid-area: nav;
+    border: 1px solid lightgrey;
+}
+
+main {
+    grid-area: main;
+    border: 1px solid lightcoral;
+}
+
+aside {
+    grid-area: sidebar;
+    border: 1px solid lightgoldenrodyellow;
+}
+
+footer {
+    grid-area: footer;
+    border: 1px solid lightgreen;
+}

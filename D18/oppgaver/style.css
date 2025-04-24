@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+        main {
+        flex-direction: column;
+        }
+}
+
+:root {
+    --backgroundColor: #8a8ae7;
+    --fontColor: #3b3838;
+}
+
+.header-container {
+    background: linear-gradient(45deg,  red, orange);
+    display: flex;
+    color: var(--fontColor);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header-links a {
+    color: var(--fontColor);
+}
+
+main {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 1rem;
+}
+
+main img {
+    width: 33%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 1rem;
+    gap: 25px;
+    background-color: var(--backgroundColor);
+    /* height: 66vh; */
+    /* flex-wrap: wrap; */
+
+}
+
+.main-content-left {
+    background-color: lightblue;
+}
+
+.main-content-right {
+    background-color: lightcyan;
+}
+
+.main-content-right img {
+    width: 500px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.product-card {
+    padding: 1rem;
+    background-color: var(--backgroundColor);
+    border-radius: 10px;
+    border: 1px solid red;
+    width: 25vw;
+    color: var(--fontColor);
+    box-shadow:8px 8px 18px grey;
+}
+
+.product-card:hover {
+    cursor: pointer;
+    box-shadow: 8px 8px 15px black;
+    border: 1px solid orange;
+}
+
+.card {
+    padding: 1.25rem;
+}
+
+.card img {
+    width: 66%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}

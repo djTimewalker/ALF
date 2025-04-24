@@ -1,0 +1,14 @@
+Oppgave 2
+
+Du skal lage en  typisk header (<header>).
+
+
+* Legg inn en logo (bruk gjerne det norske flagget, og sett width til 15%)
+* legg inn en h1 med navnet på firmaet
+* legg inn en nav-bar (<nav>), inni den skal det være en <ul> og inni den 3 stk <li> med hver sin <a href> lenke til Home, Away, og Somewhere
+
+Målet er at du får alt på en linje:
+
+Logo helt til venstre, så firmanavnet like etter. Helt til høyre skal de 3 lenkene komme på rekke og rad
+
+Det betyr at de 2 elementene til venstre må være i én gruppe, og de 3 andre (lenkene) i en gruppe for seg. Så brukes flexbox til å skyve gruppene fra hverandre vha justify-content: space-between

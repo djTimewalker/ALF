@@ -1,0 +1,110 @@
+Oppgave 1
+
+a) Lag en tom html-fil. Nederst i body-elementet lager du en <script> der du skriver JavaScriptkoden.
+
+Gjør ett og ett av punktene under: 
+
+- Opprett en variabel og kall den a, ved å bruke nøkkelordet let, men ikke sett en verdi til a enda. Tips: let a
+
+	- bruk console.log() funksjonen til å skrive ut verdien av variabelen til konsollet (Utviklerverktøyet F12 på nettsiden)
+	- tips console.log(a)	-> inni parantesen setter vi det vi ønsker den skal skrive ut, i dette tilfellet variabelverdien til a
+				-> dersom vi ønsker console.log() skal skrive ut tekst må den stå i "", eksempel console.log("skriv dette")
+
+- På neste linje: sett så verdien på variabelen a til å være et tall, eksempelvis 3.14 (I koding bruker vi punktum som desimaltegn, ikke komma)
+
+	- bruk console.log() funksjonen til å skrive ut verdien av variabelen til konsollet (Utviklerverktøyet F12 på nettsiden)
+
+- På neste linje setter du verdien av variabelen a til å være "Porsche". JavaScript har ikke noe problem med å skifte datatype fra for eksempel tall til tekst sånn plutselig. Dette er IKKE vanlig i andre språk. 
+ 
+	- bruk console.log() funksjonen til å skrive ut verdien av variabelen til konsollet (Utviklerverktøyet F12 på nettsiden)
+
+- På neste linje oppretter du enda en variabel som også heter a. Sett verdien av denne til å være 25 (let a = 25)
+	
+	- bruk console.log() funksjonen til å skrive ut verdien av variabelen til konsollet (Utviklerverktøyet F12 på nettsiden)
+
+NB! Hva skjer? (Scope...)
+
+-------------------------
+
+b) Lag en ny fil og link den til en html-fil ved denne gangen å bruke <script src="..."> nederst i body-elementet
+
+- Opprett en variabel og kall den b, ved å bruke nøkkelordet const, men ikke sett en verdi til b enda. Tips: const b
+
+	- bruk console.log() funksjonen til å skrive ut verdien av variabelen til konsollet (Utviklerverktøyet F12 på nettsiden)
+
+NB! Hva skjer?
+
+- For å få opprette en konstant (const) er vi nødt til å sette en verdi med det samme vi oppretter variabelen. eks const b = "jeg må ha en verdi"
+
+- Opprett en variabel og kall den c, ved å bruke nøkkelordet const, og sett en verdi.
+
+	- bruk console.log() funksjonen til å skrive ut verdien av variabelen til konsollet (Utviklerverktøyet F12 på nettsiden)
+
+- På neste linje setter du verdien av variabelen c til å være "Virker dette da?".
+
+	- bruk console.log() funksjonen til å skrive ut verdien av variabelen til konsollet (Utviklerverktøyet F12 på nettsiden)
+
+
+NB! Hva tror du skjer?
+
+
+--------------------------------
+
+Oppgave 2 - rekkevidde (Scope) - hvilke kodelinjer kan se de ulike variablene og benytte de?
+
+Vi så at vi kan opprette en variabel ved å bruke let. Da kan vi endre verdien til variabelen senere i koden. Dette gjør vi jo hele tiden. MEN! Vi får ikke lov til å opprette en ny variabel med samme navn som en eksisterende variabel.
+
+Likevel fungerer koden under … hvorfor det? Her blir det jo tydeligvis opprettet en variabel som heter 2 to ganger!
+
+(Kopier den og prøv selv).
+
+
+<script>
+        // oppretter en ny variabel med navnet 'a', og setter verdien til å være 10.
+        // siden variabelen opprettes med nøkkelordet 'let' kan verdien endres senere.
+        let a = 10;
+
+        {
+            // oppretter enda en variabel med samme navn som over! Hvorfor er det lov?
+            let a = 20;
+            // ber programmet om å skrive ut verdien av variabel a til console (i utviklerverktøyet -> F12).
+            console.log(a, "fra innerst")
+        }
+
+        // ber programmet om å skrive ut verdien av variabel a til console (i utviklerverktøyet -> F12).
+        console.log(a)
+
+</script>
+
+
+(Se også at vi når vi bruker funksjonen console.log() kan ramse opp flere ting vi ønsker den skal skrive ut ved å benytte komma i mellom , eksempel console.log("Variabel a:", a) som da er en blanding av tekst først, og deretter selve variabelen a, adskilt ved komma)
+
+---------------------------------------------------
+
+Oppgave 3 - Få ut verdier fra DOM
+
+Lag en html side der du setter inn ulike elementer:
+
+- En <h1> med noe tekst
+- en <p> med noe mer tekst (Tips: bruk gjerne Lorem15 for å sette inn 15 vissvass ord i VS code)
+- en input tekstboks
+- et tekstområde (textArray)
+- en nedtrekksmeny med 4 ulike valg
+- en fargevelger (colorpicker, input type="... ")
+- en datovelger ( datepicker, input type="...")
+
+og til slutt en knapp som skal starte en funksjon hentVerdier() når brukeren trykker på knappen ( tips: onclick="hentVerdier()" ). 
+
+Denne funksjonen må skrives, og alle variabler som skal inneholde alle verdiene som leses ut av DOM skal ligge inne i denne funksjonen.
+
+function hentVerdier() {
+
+	....... kode ....
+}
+
+
+Målet er altså å vise de ulike elementene på siden. Brukeren velger noe på de ulike elementene, og skriver inn nor tekst her og der, og når brukeren klikker på knappen, skal koden kjøres, og det skal hentes inn verdiene til de ulike elementene på siden.
+
+Disse verdiene skal deretter skrives ut (enten i konsollet vha console.log() eller i en <div> på siden under alle de andre elementene).
+ 
+

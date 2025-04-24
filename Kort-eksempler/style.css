@@ -1,0 +1,273 @@
+header {
+    display: flex;
+    flex-wrap: wrap; /* slik at innholdet i header kan wrap om det blir trangt om plassen */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Setter litt luft inne i elementet */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient backgrounds-farge */
+    border-radius: 5px; /* Runder hjørnene */
+    margin: auto; /* Tar all tilgjengelig ledig plass, og deler det i to, slik at header havner i midten av siden */
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    height: 60px; /* setter absolutt størrelse på img, siden det skal være en liten logo */
+    margin-right: 10px;
+    border-radius: 4px; /* Runder hjørner */
+}
+
+header div h1 {
+    margin: 0;
+}
+
+header nav {
+    position: relative;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap; /* wrap i tilfelle dårlig plass */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li { /* dette betyr: ta li'en som ligger inne i en ul, inne i en nav, inne i header */
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #800000; /* Mørk maroon color */
+    text-decoration: none; /* fjerner underlinjene i en link (underline) */
+    font-weight: bold; /* Litt feitere skrift i lenkene */
+    font-size: 1.1em; /* font 1.1 ganger så stor som fonter er i forelder-elementet  */
+}
+
+.product-cards {
+    display: flex;
+    justify-content: center; /* legg cards'ene til venstre (start) */
+    padding: 20px;
+    margin: 10px auto; /* Sentrerer product section */
+    background-color: #f9f9f9;
+    border-radius: 10px; /* Runder hjørner */
+    gap: 15px; /* setter mellomrom mellom alle kortene (gap) */
+    flex-wrap: wrap; /* Kort hopper under om det ikke er nok plass på rekken */
+}
+
+.card,
+.card-flip-content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 250px; /* Låser bredden av kort  */
+    height: 350px; /* Låser høyden på hvert kort */
+    overflow: hidden; /* Passer på at innholdet i kortet ikke flyter ut av kortområdet */
+    transition: transform 0.3s, box-shadow 0.3s; /* dette beskriver hva som skal skje om en feks hovrer */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* henviser til transition: transform i card klassen */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%; /* Passer på at bildet passer kortets bredde */
+    height: 200px; /* Setter en fast høyde slik at bildene ser like ut i kortene */
+    object-fit: cover; /* Crop'er bilde på kortet om det er for digert til å passe */
+    border-radius: 10px; /* border radius */
+    margin-bottom: 10px;
+}
+
+.card:hover img {
+    transform: none; /* Disable zoom effect */
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.card-shadow-move {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.card-shadow-move img {
+    width: 100%;
+    transition: transform 0.3s; /* Smooth transition for flipping */
+}
+
+.card-shadow-move:hover img {
+    transform: rotateX(180deg); /* Flip image oppned */
+}
+
+/* .card-border */
+.card-border {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.card-border:hover {
+    border-color: #ff7e5f; /* Endrer border-farge */
+    transform: scale(1.03); /* Liten zoom */
+}
+
+/* .card-flip */
+.card-flip {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.6s;
+}
+
+.card-flip:hover {
+    transform: rotateY(180deg); /* Flipper kortet */
+}
+
+/* .card-glow */
+.card-glow {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.card-glow:hover {
+    animation: pulsate 1.5s infinite; /* Legger til pulsating animation */
+    transform: scale(1.05); /* Litt zoom effect */
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 15px 5px rgba(255, 105, 180, 0.2); /* Lav opacity */
+    }
+    50% {
+        box-shadow: 0 0 15px 5px rgba(255, 105, 180, 0.6); /* Høy opacity */
+    }
+    100% {
+        box-shadow: 0 0 15px 5px rgba(255, 105, 180, 0.2); /* Lav opacity */
+    }
+}
+
+/* .card-tilt */
+.card-tilt {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-tilt:hover {
+    transform: rotate(-13deg) scale(1.15);/* Tilt og zoom */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-flip-content {
+    perspective: 1000px; /* Enable 3D perspective */
+    width: 250px; /* Match the width of other cards */
+    height: 350px; /* Ensure consistent height */
+    position: relative;
+    background-color: #fff; /* Ensure consistent background */
+    border: 1px solid #ddd; /* Match border style */
+    border-radius: 10px; /* Match border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Match box shadow */
+    padding: 15px; /* Match padding */
+    overflow: hidden; /* Prevent image overflow */
+}
+
+.card-flip-content-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card-flip-content:hover .card-flip-content-inner {
+    transform: rotateY(180deg); /* Flip the card */
+}
+
+.card-flip-content-front,
+.card-flip-content-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Skjul baksiden når ikke flipped */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-flip-content-front img {
+    width: 100%; /* Ensure the image fits inside the card */
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Crop the image if necessary to fit the dimensions */
+    border-radius: 10px; /* Match the card's border radius */
+    margin-bottom: 10px; /* Ensure consistent spacing */
+}
+
+.card-flip-content-back {
+    background-color: #f9f9f9;
+    transform: rotateY(180deg); /* Position the back side */
+}
+
+.card-flip-content-back h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card-flip-content:hover,
+.card-shadow-move:hover {
+    transform: none; /* Prevent upward movement */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Keep shadow effect */
+}
+
+@media (max-width: 450px) {
+    header div h1 {
+        font-size: 1.25em; /* Reduce text size in the header */
+    }
+
+    header nav ul li a {
+        font-size: 0.75em; /* Reduce link size */
+    }
+}

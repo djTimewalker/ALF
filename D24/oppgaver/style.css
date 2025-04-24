@@ -1,0 +1,29 @@
+body {
+    background-color: lavender;
+}
+
+h2 {
+    color: darkblue;
+}
+
+button {
+    padding: 1em 1.25em;
+    background-color: greenyellow;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+.container {
+    border: 1px solid orangered;
+    width: 300px;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.hero-image {
+    width: 50%;
+}

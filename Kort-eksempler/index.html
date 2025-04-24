@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="fruits-2200001_640.jpg" alt="Logo">
+            <h1>Sundappen kokkelerer</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Alle kortene under er medlem av klassen .card som gir en skyggeeffekt ved :hover -->
+        <!-- I tillegg er hvert enkelt kort medlem av en klasse hver, som gir hvert kort en spesiell effekt ved :hover -->
+
+        <section class="product-cards" >
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg" alt="Product 1">
+                <h2>Eksempel 1 - hover</h2>
+                <p>Kortet flytter seg litt oppover</p>
+                <p>Price: 100 NOK</p>
+                <p>In Stock: 10</p>
+            </div>
+            <div class="card card-tilt">
+                <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg" alt="Product 2">
+                <h2>Eksempel 2 - Tilt</h2>
+                <p>Zoom og skråstilling av kort</p>
+                <p>Price: 200 NOK</p>
+                <p>In Stock: 5</p>
+            </div>
+            <div class="card card-glow">
+                <img src="bowl-1842294_640.jpg" alt="Product 3">
+                <h2>Eksempel 3 - GLOW!</h2>
+                <p>Pulserende skyggeeffekt</p>
+                <p>Price: 300 NOK</p>
+                <p>In Stock: 2</p>
+            </div>
+            <div class="card card-flip">
+                <img src="watermelon-2367029_640.jpg" alt="Product 4">
+                <h2>Eksempel 4 - Flip</h2>
+                <p>Kortet roterer om y-aksen</p>
+                <p>Price: 400 NOK</p>
+                <p>In Stock: 8</p>
+            </div>
+            <div class="card card-border">
+                <img src="oranges-1995079_1280.jpg" alt="Product 4">
+                <h2>Eksempel 5 - Kantlinje</h2>
+                <p>Enkel kantlinje rundt kort</p>
+                <p>Price: 400 NOK</p>
+                <p>In Stock: 8</p>
+            </div>
+            <div class="card card-shadow-move">
+                <img src="grapes-9218_1280.jpg" alt="Product 4">
+                <h2>Eksempel 6 - </h2>
+                <p>Flipping av selve img</p>
+                <p>Price: 400 NOK</p>
+                <p>In Stock: 8</p>
+            </div>
+            <div class="card card-flip-content">
+                <div class="card-flip-content-inner">
+                    <div class="card-flip-content-front">
+                        <img src="strawberries-3089148_1280.jpg" alt="Product 7">
+                        <h2>Eksempel 7 - Bakside</h2>
+                        <p>Flipping av kortet for å vise baksiden</p>
+                        <p>Price: 400 NOK</p>
+                        <p>In Stock: 8</p>
+                    </div>
+                    <div class="card-flip-content-back">
+                        <h1>Laget i Sandviken</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

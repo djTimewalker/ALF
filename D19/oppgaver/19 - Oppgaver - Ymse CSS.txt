@@ -1,0 +1,60 @@
+Ymse CSS
+-----------
+-----------
+
+variabler
+
+--noe
+
+* lag en variable som kun er tilgjengelig for de elementene som befinner seg i en section (scope - rekkevidde)
+
+* lag en variabel som er tilgjengelig for alle elementene på hele html siden 
+
+* lag en variabel ved å bruke @property
+
+(se gjerne https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+for en grundig gjennomgang av bruk av variabler og @properties )
+
+------------------------
+@-rules
+------------------------
+
+@import
+
+* lag et ekstra css style-sheet "endaMerCss.css" og importer
+
+(https://developer.mozilla.org/en-US/docs/Web/CSS/@import )
+
+__
+
+@font-face
+
+* importer 3 gøye fonter fra google-fonts, og bruk de på siden din
+
+(https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+
+__
+
+@media-queries
+
+Endre retning på en flexbox når skjermbredden blir  liten (tilsvarende en mobiltelefon i portrett-modus) fra retning rad, til retning kolonne. Bestem selv når dette skal inntreffe (Hint: sett et antall pixler, feks width 650px som grense for når endringen skal inntreffe)
+
+Vi skal se mer på @medi-queries i egen leksjon senere. 
+
+
+
+------------------------------------------------------
+
+Animasjon
+
+
+* Få en tekst til å skli inn fra høyre
+
+* Få et bilde til å spinne rundt 360 grader.
+
+(se leksjon)
+
+* ekstra oppgave: Se om du kan få et element (eks et bilde eller en knapp)  til å bli større vha animasjon når brukeren hovrer musen over...
+
+(se https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale )
+

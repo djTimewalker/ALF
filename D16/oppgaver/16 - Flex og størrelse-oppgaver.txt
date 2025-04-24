@@ -1,0 +1,76 @@
+1. Lag en responsiv navigasjonsmeny
+* Bruk Flexbox for å plassere menyen horisontalt.
+* Bruk rem for padding og margin.
+* Menyen skal ha en bakgrunn som dekker 100vw.
+_____________________________________________
+
+2. Lag en seksjon med to kolonner
+* Bruk Flexbox for å plassere to <div>-bokser ved siden av hverandre.
+* Den ene boksen skal være 40% bred, den andre 60%.
+* Bruk vh for å sette høyden til 50% av skjermen.
+____________________________________________
+
+3. Lag et fullskjerm hero-bilde
+* Bruk 100dvh for å fylle hele skjermen.
+* Legg til en overskrift som er sentrert med Flexbox.
+* Bruk vw for å sette skriftstørrelsen.
+____________________________________________
+
+4. Lag en responsiv kort-komponent
+* Lag en <div> med en tittel og en beskrivelse.
+* Bruk max-width: 500px og width: 80% for å gjøre den responsiv.
+* Bruk em for padding og rem for margin.
+_____________________________________________
+
+4. - utvidet
+Profesjonell kort-komponent
+* Lag en responsiv kort-komponent med et bilde, tittel og beskrivelse.
+* Kortet skal ha avrundede hjørner, en subtil skygge (box-shadow), og en hover-effekt.
+* Bruk max-width og width for responsiv tilpasning.
+* Legg til litt padding og margin med rem eller em for en luftig layout.
+__________________________________________
+
+5. Lag en fleksibel "pricing" seksjon
+* Lag tre bokser ved siden av hverandre med Flexbox.
+* Hver boks skal bruke flex-grow slik at de skalerer likt.
+* Bruk fr-enheter i en flex-basis-verdi (som f.eks. flex: 1).
+* Bruk vw og vh for å gjøre dem dynamiske.
+____________________________________________
+
+5. - utvidet
+Fleksibel "pricing" seksjon med ulik vekst
+* Lag tre bokser ved siden av hverandre med Flexbox.
+* Bruk flex-grow med forskjellige verdier slik at boksene utvider seg med ulik hastighet når skjermbredden endres.
+* Sett en fast min-width for å unngå at boksene blir for små.
+* Bruk vh og vw for å gjøre dem dynamiske.
+_________________________________________________
+
+6. Lag en knapp som vokser med tekststørrelsen
+* Bruk em for padding slik at knappen vokser med tekststørrelsen.
+* Når man øker font-size, skal knappen også bli større.
+_______________________________________________
+
+7. Lag en footer som alltid er i bunnen
+* Bruk position: fixed; og bottom: 0; for å plassere en footer.
+* Sett bredden til 100vw.
+* Bruk rem for padding og tekststørrelse.
+_______________________________________________
+
+8. Lag en side med et sticky header
+* Lag et header-element med position: sticky; top: 0;.
+* Bruk 100vw for bredden.
+* Bruk rem for padding og vh for høyden.
+________________________________________________
+
+9. Lag en responsiv boks med Flexbox
+* Lag en <div> som har display: flex; og sentrerer innholdet.
+* Bruk 50vw for bredde og 30vh for høyde.
+* Bakgrunnsfargen skal dekke 100% av boksen, men tekststørrelsen skal være i rem.
+________________________________________________
+
+10. Lag en layout med en venstre sidebar
+* Bruk Flexbox for å plassere en sidebar til venstre og hovedinnhold til høyre.
+* Sidemenyen skal være 25vw bred, mens hovedinnholdet tar 75vw.
+* Bruk vh for høyden slik at de fyller hele skjermen.
+____________________________________________________
+

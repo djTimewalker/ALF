@@ -45,7 +45,15 @@ const submitTempButton = document.getElementById("submit-temp-btn")
 submitTempButton.addEventListener("click", () => {
     const inputTemperatureF = parseFloat(document.getElementById("input-temperature-f").value)
     const outputTemperatureC = (inputTemperatureF - 32) * 5 / 9
-    const outputTemperatureK = outputTemperatureC - 273.15
-    console.log("Celsius", outputTemperatureC)
-    console.log("Kelvin", outputTemperatureK)
+    const outputTemperatureK = (outputTemperatureC - 273.15)
+    document.getElementById("o2-answer-a").innerHTML = `
+    <div class="output">
+    <p>${inputTemperatureF} grader Fahrenheit tilsvarer <span class="solution">${(outputTemperatureC.toFixed(2))}</span> grader Celcius og <span class="solution">${(outputTemperatureK.toFixed(2))}</span> grader Kelvin</p>
+    </div>
+
+    `
+    // console.log("Celsius", outputTemperatureC)
+    // console.log("Kelvin", outputTemperatureK)
+
+
 })

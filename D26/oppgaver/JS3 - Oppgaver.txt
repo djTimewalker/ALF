@@ -1,0 +1,100 @@
+Funksjoner, variabler, Strenger, og litt tall
+
+Felles for alle sidene:
+
+Lag en ny html-side og javascript-side for hver oppgave, slik at vi får terpet litt på fremgangsmåten også. Bruk gjerne litt tid på å style elementene med litt CSS, for å holde det ved like. Kanskje noen farger, et lite bilde og slikt'no.
+
+
+
+Oppgave 1 – Lek med tall
+Lag et program som leser det tallet (kun ett tall) som brukeren har skrevet inn i et tekstfelt. Dette skal skje når en knapp trykkes. Skriv ut til websiden hva halvparten av tallet er, hva det dobbelte av tallet er, hva det tredobbelte av tallet er, og hva tallet ganget med seg selv er. Husk å benytte forklarende tekst til hver linje som skrives ut - det skal være lett å
+lese programmet for en utenforstående.
+
+(Tips: en får fatt i verdien brukeren skriver inn ved å spørre DOM:  let inputverdi = document.getElementById("input").value )
+
+------------------------------------------------------------
+Oppgave 2 - Konvertering mellom ulike temperatur-skalaer
+
+Lag et program der brukeren skriver inn en verdi i Fahrenheit i et tekstfelt. Regn om til Celsius og Kelvin, og presenter dette for brukeren med passene ledetekst ala
+
+"35 grader Fahrenheit tilsvarer ... grader Celsius og ... grader Kelvin"
+
+T (° F) = T (° C) × 9/5 + 32
+
+
+Dette skal skje når en knapp trykkes.
+
+b) Lag et program som konverterer andre veien også ( Celsius -> Fahrenheit og Kelvin)
+T (° C) = ( T (° F) - 32) × 5/9
+
+--------------------------------------------------------------------
+
+Oppgave 3 - Lag et program som konverterer mellom km/h og mph (miles per hour)
+
+På samme måte som tidligere skriver brukeren inn et tall i et tekstfelt, og den beregnede verdien presenteres med passende ledetekst.
+
+"... km/h tilsvarer ... miles per  hour!"
+
+Dette skal skje når brukeren trykker på en knapp.
+
+
+Du trenger: En mile tilsvarer 1609,34 meter
+
+
+b) Lag et program som gjør det samme, men i motsatt rekkefølge mph -> km/h
+
+-------------------------------------------------------------------------------------------------
+
+Oppgave 4 - BMI-kalkulator
+
+Bruker skriver inn verdier for vekt og høyde. Når brukeren trykker på en knapp skal det beregnes BMI og resultatet presenteres for brukeren.
+
+Bmi beregnes som følger:
+
+BMI = (Weight in Kilograms / (Height in Meters x Height in Meters))
+
+
+
+Utskrift kan ha formen:
+
+"Basert på din høyde ...m og din kroppsvekt ...kg er din beregnede BMI ..."
+
+
+
+--------------------------------
+
+Litt Tekststrenger:
+
+--------------------------------
+
+Oppgave 5 - Øvelse med ulike streng-funksjoner
+
+
+Lag et input-felt av typen tekst, som brukeren kan skrive inn noe i.
+
+Lag 3 enkle knapper under tekstboksen:
+
+"Finn lengde" ( Tips: .length )
+	
+"Gjør om til store bokstaver" ( Tips: .toUpperCase() )	
+
+"Gjør om til små bokstaver" ( Tips: .toLowerCase() )		
+
+
+Hver av knappene skal være koblet til en egen funksjon som utfører det som knappen beskriver. 
+Du må gi et godt navn til hver funksjon, og skrive det som skal skje, når brukeren klikker på knappen.
+
+Skriv ut svaret i en <p> som du gir id="utskrift"
+
+
+----------------------------------------------------------------------------------------------
+
+Oppgave 6 - Lag en e-post generator!
+
+Brukeren skriver inn fornavn og mellomnavn i hvert sitt tekstfelt på siden. Når brukeren trykker på en knapp, skal programmet lage en epostadresse automagisk på formen
+
+"Din epostadresse er: knut.knutsen@olsenbanden.co.uk"
+
+Alt etter @-tegnet kan du velge selv
+
+Tips: Bruk "concatenation" (string-summering) for å sette sammen små deler av en tekst til en epostadresse.

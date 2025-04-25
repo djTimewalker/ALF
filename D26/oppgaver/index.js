@@ -41,8 +41,9 @@ b) Lag et program som konverterer andre veien også ( Celsius -> Fahrenheit og K
 T (° C) = ( T (° F) - 32) × 5/9
 */
 
-const submitTempButton = document.getElementById("submit-temp-btn")
-submitTempButton.addEventListener("click", () => {
+const submitTempFButton = document.getElementById("submit-temp-f-btn")
+const submitTempCButton = document.getElementById("submit-temp-c-btn")
+submitTempFButton.addEventListener("click", () => {
     const inputTemperatureF = parseFloat(document.getElementById("input-temperature-f").value)
     const outputTemperatureC = (inputTemperatureF - 32) * 5 / 9
     const outputTemperatureK = (outputTemperatureC - 273.15)
@@ -50,10 +51,16 @@ submitTempButton.addEventListener("click", () => {
     <div class="output">
     <p>${inputTemperatureF} grader Fahrenheit tilsvarer <span class="solution">${(outputTemperatureC.toFixed(2))}</span> grader Celcius og <span class="solution">${(outputTemperatureK.toFixed(2))}</span> grader Kelvin</p>
     </div>
-
     `
-    // console.log("Celsius", outputTemperatureC)
-    // console.log("Kelvin", outputTemperatureK)
-
-
 })
+submitTempCButton.addEventListener("click", () => {
+    const inputTemperatureC = parseFloat(document.getElementById("input-temperature-c").value)
+    const outputTemperatureF = (inputTemperatureC *  9 / 5) + 32
+    const outputTemperatureK = (inputTemperatureC - 273.15)
+    document.getElementById("o2-answer-b").innerHTML = `
+    <div class="output">
+    <p>${inputTemperatureC} grader Celsius tilsvarer <span class="solution">${(outputTemperatureF.toFixed(2))}</span> grader Fahrenheit og <span class="solution">${(outputTemperatureK.toFixed(2))}</span> grader Kelvin</p>
+    </div>
+    `
+})
+

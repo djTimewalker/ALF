@@ -46,20 +46,20 @@ const submitTempCButton = document.getElementById("submit-temp-c-btn")
 submitTempFButton.addEventListener("click", () => {
     const inputTemperatureF = parseFloat(document.getElementById("input-temperature-f").value)
     const outputTemperatureC = (inputTemperatureF - 32) * 5 / 9
-    const outputTemperatureK = (outputTemperatureC - 273.15)
+    const outputTemperatureK = (outputTemperatureC + 273.15)
     document.getElementById("o2-answer-a").innerHTML = `
     <div class="output">
-    <p>${inputTemperatureF} grader Fahrenheit tilsvarer <span class="solution">${(outputTemperatureC.toFixed(2))}</span> grader Celcius og <span class="solution">${(outputTemperatureK.toFixed(2))}</span> grader Kelvin</p>
+    <p>${inputTemperatureF} grader Fahrenheit tilsvarer <span class="solution">${(outputTemperatureC.toFixed(1))}</span> grader Celcius og <span class="solution">${(outputTemperatureK.toFixed(2))}</span> grader Kelvin</p>
     </div>
     `
 })
 submitTempCButton.addEventListener("click", () => {
     const inputTemperatureC = parseFloat(document.getElementById("input-temperature-c").value)
     const outputTemperatureF = (inputTemperatureC *  9 / 5) + 32
-    const outputTemperatureK = (inputTemperatureC - 273.15)
+    const outputTemperatureK = (inputTemperatureC + 273.15)
     document.getElementById("o2-answer-b").innerHTML = `
     <div class="output">
-    <p>${inputTemperatureC} grader Celsius tilsvarer <span class="solution">${(outputTemperatureF.toFixed(2))}</span> grader Fahrenheit og <span class="solution">${(outputTemperatureK.toFixed(2))}</span> grader Kelvin</p>
+    <p>${inputTemperatureC} grader Celsius tilsvarer <span class="solution">${(outputTemperatureF.toFixed(1))}</span> grader Fahrenheit og <span class="solution">${(outputTemperatureK.toFixed(2))}</span> grader Kelvin</p>
     </div>
     `
 })

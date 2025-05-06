@@ -1,0 +1,17 @@
+.utskrift {
+    padding: 25px;
+        width: auto;
+        display: inline-block;
+}
+
+.verified {
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid black;
+}
+
+.refused {
+    background-color: red;
+    color: whitesmoke;
+    border: 1px solid black;
+}

@@ -102,7 +102,7 @@ eksempel: Ole Dole Doffen
 	"Din epostadresse er: ole.d.doffen@andeby.com"
 */
 const submitGenEmailButtonA = document.getElementById("o2a-submit-btn")
-submitGenEmailButtonA.addEventListener("click", function () {
+submitGenEmailButtonA.addEventListener("click", function() {
     const fname = document.getElementById("o2a-fname").value.toLowerCase()
     const mname = document.getElementById("o2a-mname").value.toLowerCase()[0]
     const lname = document.getElementById("o2a-lname").value.toLowerCase()
@@ -126,7 +126,7 @@ Tips: bruk String - funksjon(eksempelvis: slice()) eller indekser(eksempelvis: f
 */
 
 const submitGenEmailButtonB = document.getElementById("o2b-submit-btn")
-submitGenEmailButtonB.addEventListener("click", function () {
+submitGenEmailButtonB.addEventListener("click", function() {
     const fname = document.getElementById("o2b-fname").value.toLowerCase()
     const mname = document.getElementById("o2b-mname").value.toLowerCase()
     const lname = document.getElementById("o2b-lname").value.toLowerCase()
@@ -154,7 +154,7 @@ eksempel "du er pensjonist og får 20% rabatt"
 let rabatt = 0
 const price = 100
 const submitGenRabattButtonA = document.getElementById("o3a-submit-btn")
-submitGenRabattButtonA.addEventListener("click", function () {
+submitGenRabattButtonA.addEventListener("click", function() {
     const age = Number(document.getElementById("o3a-age").value)
     if (age < 12) {
         rabatt = 0.5

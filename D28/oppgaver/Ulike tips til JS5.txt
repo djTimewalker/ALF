@@ -1,0 +1,57 @@
+Ulike tips til JS5-oppgavene
+
+
+oppgave 1 - Hvordan sjekke om brukeren ikke har skrevet inn noe i tekstfeltet? Som vi så når det gjaldt tekst-strenger (String), så har de en innebygget egenskap som heter .length; som sier hvor lang tekststrengen er. Vi kan bruke den for å se om teksstrengen er tom - altså at: 
+
+	if(tekst.length == 0) {
+		… gjør noe …
+	}	
+
+Altså teksten brukeren har skrevet inn er IKKE en tom streng
+
+En annen måte er å sjekke at tekststrengen IKKE er tom:
+	
+	if(tekst != "") {
+		… gjør noe … 
+	}
+
+
+-------------------------------------------------------------------
+Oppgave 2 - Hvordan sjekke hva brukeren valgte i nedtrekksmenyen?
+
+	let op = document.getElementById("operator").value;
+
+ 	           if (op == "minus") {
+        	        svar = tall1 - tall2;
+            	}
+
+
+Spør først elementet (nedtrekksmenyen) hvilken verdi som er valgt (.value) og lagrer den i variabelen op.
+
+Deretter sjekker vi om verdien er "minus" , da gjøres en beregning basert på det valget
+
+-----------------------------------------------------------------------------------------------------
+
+Oppgave 3 - Hvordan vet jeg hvilken radiobutton som er valgt?
+
+	if (document.getElementById("red").checked) {
+                valgtFarge = "rød";
+            }
+
+jeg spør ett og ett element om det er valgt(checked), og setter valgtFarge variabelen til rette verdi.
+
+-------------------------------------------------------------------
+
+Oppgave 4 - Hvordan legger en inn slidere?
+
+eks
+
+	Rød: <input type="range" min="0" max="255" value="0" name="" id="red">
+
+Type er altså range. og man kan sette minimums-verdien og maksimums-verdien. Her har jeg satt fra 0-255 siden det er verdiene vi kan bruke for hver farge i RGB. Vi trenger altså 3 slike slidere, en for hver av de 3 fargene. Til slutt bruker vi funksjonen rgb() og legger ved verdiene fra de 3 sliderene.
+
+eks: 
+	color = rgb(red, blue, green)
+
+----------------------------------------------------------------------
+

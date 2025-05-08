@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+    <h1>Oppgaver</h1>
+    <h2>Oppgave 1:</h2>
+    <p>If-setning</p>
+    <input type="text" placeholder="Skriv inn navnet ditt" id="o1-input-name">
+    <button type="button" class="button" id="o1-submit-btn">Send inn</button>
+    <br><br>
+    <div id="o1-output"></div>
+    <hr>
+    <h2>Oppgave 2:</h2>
+    <p>Kalkulatorfunksjon</p>
+    <input type="number" placeholder="Skriv inn et tall" id="o2-input-number1">
+    <select name="operator" id="o2-input-operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" placeholder="Skriv inn et tall" id="o2-input-number2">
+    <button type="button" class="button" id="o2-submit-btn">Beregn</button>
+    <br><br>
+    <div id="o2-output"></div>
+    <hr>
+    <h2>Oppgave 3:</h2>
+    <p>Radioknappvalg</p>
+    <input type="radio" name="color" id="o3-radio-red">
+    <label for="o3-radio-red">Rød</label>
+    <input type="radio" name="color" id="o3-radio-green">
+    <label for="o3-radio-green">Grønn</label>
+    <input type="radio" name="color" id="o3-radio-blue">
+    <label for="o3-radio-blue">Blå</label>
+    <button type="button" class="button" id="o3-submit-btn">Send inn</button>
+
+    <br><br>
+    <div id="o3-output"></div>
+    <hr>
+    <h2>Oppgave 4:</h2>
+    <p>Slider</p>
+    <div class="slidercontainer">
+        <label for="o4-slider-red">Rød</label>
+        <input type="range" name="red" class="slider" id="o4-slider-red" min="0" max="255" value="0">
+        <label for="o4-slider-green">Grønn</label>
+        <input type="range" name="green" class="slider" id="o4-slider-green" min="0" max="255" value="0">
+        <label for="o4-slider-blue">Blå</label>
+        <input type="range" name="blue" class="slider" id="o4-slider-blue" min="0" max="255" value="0">
+    </div>
+    <br>
+    <button type="button" class="button" id="o4a-submit-btn">Bytt farge</button>
+
+    <br><br>
+    <div id="o4a-output"></div>
+    <h2>Oppgave 4b:</h2>
+    <p>Slidere med verdi</p>
+    <div class="slidercontainer">
+        <label for="o4b-slider-red">Rød</label>
+        <input type="range" name="red" class="slider" id="o4b-slider-red" min="0" max="255" value="0">
+        <p id="valueRed"></p>
+        <label for="o4b-slider-green">Grønn</label>
+        <input type="range" name="green" class="slider" id="o4b-slider-green" min="0" max="255" value="0">
+        <div id="valueGreen"></div>
+        <label for="o4b-slider-blue">Blå</label>
+        <input type="range" name="blue" class="slider" id="o4b-slider-blue" min="0" max="255" value="0">
+        <div id="valueBlue"></div>
+    </div>
+    <br>
+    <button type="button" class="button" id="o4b-submit-btn">Bytt farge</button>
+
+    <br><br>
+    <div id="o4b-output"></div>
+    <hr>
+    <h2>Oppgave 5:</h2>
+    <p>Avmerkingsbokser og handleliste</p>
+
+    <br><br>
+    <div id="o5-output"></div>
+    <hr>
+    <h2>Oppgave 6:</h2>
+    <p>Karakterkalkulator</p>
+
+    <br><br>
+    <div id="o6-output"></div>
+    <hr>
+
+    <script src="index.js"></script>
+</body>
+</html>

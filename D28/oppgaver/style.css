@@ -1,0 +1,66 @@
+.button {
+    padding: 0.3em 0.5em;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 0.25em;
+}
+
+.button:hover {
+    background-color: orangered;
+}
+
+.answer {
+    border-radius: 8px;
+    border: 2px dotted black;
+    width: auto;
+    display: inline-block;
+    padding: 0.3em 0.8em;
+
+}
+
+.solution {
+    font-weight: 800;
+    color: red;
+}
+
+.slidercontainer {
+    width: 50%;
+}
+
+.slider {
+    appearance: none;
+    width: 100%;
+    height: 1.25rem;
+    background: lightsteelblue;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    /* Slider handle height */
+    background: #04AA6D;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    /* Slider handle height */
+    background: #04AA6D;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */ }

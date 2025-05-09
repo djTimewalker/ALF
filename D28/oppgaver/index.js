@@ -117,9 +117,34 @@ Som den forrige, men nå ønsker vi å se verdien av hver
 slider skrevet til skjermen når brukeren endrer den [0 - 255]
 */
 
-let sliderRed = document.getElementById("o4b-slider-red")
-let outputRed = document.getElementById("valueRed")
+const sliderRed = document.getElementById("o4b-slider-red")
+const outputRed = document.getElementById("valueRed")
+const sliderGreen = document.getElementById("o4b-slider-green")
+const outputGreen = document.getElementById("valueGreen")
+const sliderBlue = document.getElementById("o4b-slider-blue")
+const outputBlue = document.getElementById("valueBlue")
+const o4bSubmitButton = document.getElementById("o4b-submit-btn")
+o4bSubmitButton.addEventListener("click", function () {
+    const redNumber = document.getElementById ("o4b-slider-red").value
+    const greenNumber = document.getElementById ("o4b-slider-green").value
+    const blueNumber = document.getElementById ("o4b-slider-blue").value
+    document.body.style.backgroundColor= `rgb(${redNumber}, ${greenNumber}, ${blueNumber})`
+    document.getElementById("o4b-output").innerHTML = `
+    <div class="answer">
+    <p>Du har endret bakgrunnsfargen til: <span class="solution">Rød:${redNumber}, Grønn: ${greenNumber}, Blå: ${blueNumber}</span></p>
+    </div>
+    `
+})
 outputRed.innerHTML = sliderRed.value
+outputGreen.innerHTML = sliderGreen.value
+outputBlue.innerHTML = sliderBlue.value
 sliderRed.oninput = function () {
     outputRed.innerHTML = this.value
 }
+sliderGreen.oninput = function () {
+    outputGreen.innerHTML = this.value
+}
+sliderBlue.oninput = function () {
+    outputBlue.innerHTML = this.value
+}
+

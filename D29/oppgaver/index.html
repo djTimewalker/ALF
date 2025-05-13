@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Oppgaver</title>
 </head>
-<body>
+<>
 
         <h1>Handleliste</h1>
         <h2>Oppgave 1:</h2>
@@ -18,16 +18,39 @@
         <hr>
         <h2>Oppgave 2:</h2>
         <p>Favoritt bok liste</p>
-        <textarea placeholder="Skriv inn en liste over favoritt-bøker" id="o2-input-text" cols="30" rows="8"></textarea>
+        <label for="o2-input-list">Velg et par favorittbøker:</label>
+        <select name="favbooks" id="o2-input-list">
+            <option value="Hobbitene">Hobbitene</option>
+            <option value="Harry Potter">Harry Potter</option>
+            <option value="Bobsy Barna">Bobsy Barna</option>
+            <option value="Hardyguttene">Hardyguttene</option>
+        </select>
         <br>
         <button type="button" id="o2-submit-btn">Legg inn liste</button>
-        <br><br>
+        <br>
         <p id="o2-output"></p>
         <hr>
         <h2>Oppgave 3:</h2>
-        <p>Klikke-teller</p>
-        <button class="button" id="o3-submit-btn">Klikk her</button>
-        <p id="o3-output">0</p>
+        <p class="o3-p1"id="o3-p1">Klikke-teller</p>
+        <button class="button o3-btn" id="o3-submit-btn">Klikk her</button>
+        <p class="o3-teller" id="o3-output">0</p>
+        <hr>
+        <h2 id="o4-h2">Oppgave 4:</h2>
+        <button type="button" id="o4-class1-btn">Legg til klasse</button>
+        <p id="o4-p1">Dette er en p-tag og du kan klikke på knappen for å legge til en klasse</p>
+        <button type="button" id="o4-class2-btn">Legg til klasse</button>
+        <p id="o4-p2">Dette er en p-tag og du kan klikke på knappen for å legge til en klasse</p>
+        <button type="button" id="o4-class3-btn">Legg til klasse</button>
+        <p id="o4-p3">Dette er en p-tag og du kan klikke på knappen for å legge til en klasse</p>
+        <button type="button" id="o4-class4-btn">Legg til klasse</button>
+        <p class="o4-p4-x" id="o4-p4">Dette er en p-tag og du kan klikke på knappen for å fjerne en klasse</p>
+        <button type="button" id="o4-class5-btn">Fjern klasse</button>
+        <h3 class="buttonclicked" id="o4-h3">Dette er en H3-tag og du kan klikke på knappen for å toggle en klasse</>
+        <br>
+        <button type="button" id="o4-class6-btn">Toggle klasse</button>
+
+
+
 
 
         <script src="index.js"></script>

@@ -1,4 +1,48 @@
+.o3-p1 {
+    font-size: 2rem;
+    color: red;
+}
+
+.o3-btn {
+    font-size: 3rem;
+    padding: 0.5em 0.75em;
+    background-color: lightsalmon;
+    color: blue;
+}
+
+.o3-teller {
+    font-size: 4rem;
+    margin-left: 0.5em;
+}
+
 .buttonclicked {
     border: 2px solid red;
     border-radius: 10px;
 }
+
+.o4-h2-x {
+    color: red;
+}
+
+.o4-p1-x {
+    font-size: 2rem;
+}
+
+.o4-p2-x {
+    color: blue;
+    border: 2px dotted red;
+}
+
+.o4-p3-x {
+    color: green;
+}
+
+.o4-p4-x {
+    border: 5px solid brown;
+    border-radius: 10px;
+    padding: 0.5em 0.75em;
+    background-color: lightgreen;
+    color: whitesmoke;
+}
+
+

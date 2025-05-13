@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+    <h1>Diverse oppgaver</h1>
+    <h2>Oppgave 1:</h2>
+    <h2>Velkommen til historiegeneratoren</h2>
+    <p>Fyll ut informasjon i feltene og klikk på knappen for å generere en historie som vil vises nedenfor.</p>
+    <label for="o1-input-name">Velg et navn på hovedkarakteren: </label><br>
+    <input type="text" placeholder="Navn" id="o1-input-name">
+    <br>
+    <label for="o1-input-gender">Velg kjønn:</label>
+    <select name="gender" id="o1-input-gender">
+        <option value="mann">Mann</option>
+        <option value="dame">Kvinne</option>
+    </select>
+    <br>
+    <label for="o1-input-year">Skriv inn fødselsår (4-siffer):</label>
+    <input type="number" placeholder="Fødselsår" id="o1-input-year">
+    <br>
+    <button type="button" class="button" id="o1-submit-btn">Generer historie</button>
+    <p id="o1-output"></p>
+    <hr>
+    <h2>Oppgave 2:</h2>
+    <p>Gjett tallet! Legg inn et tall mellom 0 og 100 og se om du har gjettet riktig tall</p>
+    <label for="o2a-input-number">Hva tror du det riktige tallet er?</label>
+    <input type="number" placeholder="Ditt tall" id="o2a-input-number" min="0" max="100">
+    <button type="button" class="button" id="o2a-submit-btn">Sjekk tallet!</button>
+    <br><br>
+    <p id="o2a-output"></p>
+    <hr>
+    <h2>Oppgave 2b:</h2>
+    <p>Gjett tallet! Det genereres et tilfeldig tall hver gang du starter spillet. Du har 5 forsøk på deg til å gjette det riktige tallet.</p>
+    <button type="button" class="button" id="o2b-start-btn">Start spillet!</button>
+    <br><br>
+    <label for="o2b-input-number">Gjett tallet</label>
+    <input type="number" placeholder="Ditt tall" id="o2b-input-number" min="0" max="100">
+    <button type="button" class="button" id="o2b-submit-btn">Sjekk tallet ditt!</button>
+    <br><br>
+    <p id="o2b-output"></p>
+    <hr>
+    <h2>Oppgave 2c:</h2>
+    <p>Gjett tallet! Det genereres et tilfeldig tall hver gang du starter spillet. Du har 5 forsøk på deg til å gjette det riktige tallet. Resultatet etter hvert forsøk vil styles.</p>
+    <button type="button" class="button" id="o2c-start-btn">Start spillet!</button>
+    <br><br>
+    <label for="o2c-input-number">Gjett tallet</label>
+    <input type="number" placeholder="Ditt tall" id="o2c-input-number" min="0" max="100">
+    <button type="button" class="button" id="o2c-submit-btn">Sjekk tallet ditt</button>
+    <br><br>
+    <p id="o2c-output"></p>
+    <hr>
+    <h2>Oppgave 3a:</h2>
+    <p>Fergetur for hele familien!</p>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

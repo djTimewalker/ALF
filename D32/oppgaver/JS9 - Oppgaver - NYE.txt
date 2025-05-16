@@ -1,0 +1,43 @@
+🔢 1. Lag en knapp som legger til nye tall i en liste
+Mål: Øve på createElement, appendChild og event listeners.
+
+Oppgave:
+
+Start med en <ul> og en knapp på siden.
+
+Når brukeren trykker på knappen, skal et nytt <li>-element med et tilfeldig tall mellom 1 og 100 legges til listen.
+
+_________________________________
+
+📝 2. Dynamisk kommentarfelt
+Mål: Øve på å hente verdier fra input og legge til HTML-elementer.
+
+Oppgave:
+
+Lag en <textarea> og en "Legg til kommentar"-knapp.
+
+Når brukeren klikker på knappen, skal kommentaren legges til som et nytt <p>-element under tekstfeltet.
+
+___________________________________
+
+🎨 3. Lag fargebokser med knapp
+Mål: Bruke JS til å manipulere både stil og struktur.
+
+Oppgave:
+
+Lag en input der brukeren kan skrive inn en farge (f.eks. red, #ff0000, etc.).
+
+Når brukeren trykker på en knapp, skal en ny <div> vises med bakgrunnsfargen som ble skrevet inn.
+
+Gi boksene fast bredde/høyde og margin via CSS.
+
+_________________________________________________
+
+🧮 4. Kalkulator for regnestykker
+Mål: Kombinere if-setninger, inputs og dynamisk HTML.
+
+Oppgave:
+
+Bruk to <input type="number">, en <select> med +, -, *, /, og en "Regn ut"-knapp.
+
+Når man klikker på knappen, skal resultatet vises som et nytt <p>-element.

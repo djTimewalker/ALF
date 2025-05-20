@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+<h1>Oppgaver</h1>
+<h2>Oppgave 1:</h2>
+<p>Tenåring i huset? Legg inn alder i feltet og klikk "Sjekk!"-knappen</p>
+<input type="number" id="o1-input-age" placeholder="Alder">
+<button type="button" id="o1-submit-btn" onclick="renderAlder()">Sjekk!</button>
+<br><br>
+<p id="o1-output"></p>
+<hr>
+
+
+<h2>Oppgave 2:</h2>
+<p>Størst tall. Finn det største av 2 tall. Legg inn 2 tall og klikk "Sjekk!"-knappen</p>
+<input type="number" id="o2-input-number1" placeholder="Tall 1">
+<input type="number" id="o2-input-number2" placeholder="Tall 2">
+<button type="button" id="o2-submit-btn" onclick="renderStorstTall()">Sjekk!</button>
+<br><br>
+<p id="o2-output"></p>
+<hr>
+
+<h2>Oppgave 3:</h2>
+<p>Regn ut arealet til et rektangel. Legg inn lengde og bredde, og klikk "Sjekk!"-knappen</p>
+<input type="number" id="o3-input-length" placeholder="Lengde">
+<input type="number" id="o3-input-width" placeholder="Bredde">
+<button type="button" id="o3-submit-btn" onclick="renderArealRektangel()">Sjekk!</button>
+<br><br>
+<p id="o3-output"></p>
+<hr>
+<h2>Oppgave 4:</h2>
+<p>Regn ut arealet til en sirkel. Legg inn radius og klikk "Sjekk!"-knappen</p>
+<input type="number" id="o4-input-radius" placeholder="Radius">
+<button type="button" id="o4-submit-btn" onclick="renderArealSirkel()">Sjekk!</button>
+<br><br>
+<p id="o4-output"></p>
+<hr>
+<h2>Oppgave 5:</h2>
+<p>Regn ut volumet av en eske. Legg inn høyde, lende og bredde av esken og klikk "Sjekk!"-knappen</p>
+<input type="number" id="o5-input-height" placeholder="Høyde">
+<input type="number" id="o5-input-length" placeholder="Lengde">
+<input type="number" id="o5-input-width" placeholder="Bredde">
+<button type="button" id="o5-submit-btn" onclick="renderVolumEske()">Sjekk!</button>
+<br><br>
+<p id="o5-output"></p>
+<hr>
+<h2>Oppgave 6:</h2>
+<p>Regn ut arealet av alle 6 sidene på en eske. Legg inn høyde, lengde og bredde og klikk "Sjekk!"-knappen</p>
+<input type="number" id="o6-input-height" placeholder="Høyde">
+<input type="number" id="o6-input-length" placeholder="Lengde">
+<input type="number" id="o6-input-width" placeholder="Bredde">
+<button type="button" id="o6-submit-btn" onclick="renderArealEske()">Sjekk!</button>
+<br><br>
+<p id="o6-output"></p>
+<hr>
+<h2>Oppgave 7:</h2>
+<p>Initialer og etternavn. Legg inn fornavn, mellomnavn og etternavn og klikk "Send inn!"-knappen</p>
+<input type="text" id="o7-input-firstname" placeholder="Fornavn">
+<input type="text" id="o7-input-middlename" placeholder="Mellomnavn">
+<input type="text" id="o7-input-lastname" placeholder="Etternavn">
+<button type="button" id="o7-submit-btn" onclick="renderNavn()">Send inn!</button>
+<br><br>
+<p id="o7-output"></p>
+<hr>
+<h2>Oppgave 8:</h2>
+<p>Legg inn prisen på varen i dollar, og regn om til norske kroner. Klikk så på "Regn ut!"-knappen for å legge til gebyr og du får ut sluttbeløpet.</p>
+<input type="number" id="o8-input-dollar" placeholder="Pris i dollar">
+<input type="number" id="o8-input-kurs" placeholder="Valutakurs">
+
+<button type="button" id="o8-submit-btn" onclick="renderTollMoms()">Regn ut!</button>
+<br><br>
+<p id="o8-output"></p>
+<hr>
+
+    <script src="index.js"></script>
+</body>
+</html>

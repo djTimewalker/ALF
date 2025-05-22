@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+
+<h1>Oppgaver</h1>
+<p>Løkker</p>
+
+<h2>Oppgave 1:</h2>
+<p>Lag en app som skriver ut alle partall mellom 0 og 100.</p>
+<button type="button" id="o1-submit-btn" onclick="generateEvenNumbers()">Generer utskrift</button>
+<button type="button" id="o1-clear-btn" onclick="clearOutput('o1-output')">Tøm utskrift</button>
+<div id="o1-output"></div>
+<hr>
+<h2>Oppgave 2:</h2>
+<p>Lag en app som skriver ut alle oddetall mellom 0 og 100.</p>
+<button type="button" id="o2-submit-btn" onclick="generateOddNumbers()">Generer utskrift</button>
+<button type="button" id="o2-clear-btn" onclick="clearOutput('o2-output')">Tøm utskrift</button>
+<div id="o2-output"></div>
+<hr>
+<h2>Oppgave 3:</h2>
+<p>Lag en app som skriver ut alle tall mellom 0 og 100 som er delelig med 5.</p>
+<button type="button" id="o3-submit-btn" onclick="generateNumbersDivisibleBy5()">Generer utskrift</button>
+<button type="button" id="o3-clear-btn" onclick="clearOutput('o3-output')">Tøm utskrift</button>
+<div id="o3-output"></div>
+<hr>
+<h2>Oppgave 4:</h2>
+<p>Lag en app som skriver ut alle tall mellom 0 og 100 som er delelig med 5 og er et partall.</p>
+<button type="button" id="o4-submit-btn" onclick="generateEvenNumbersDivisibleBy5()">Generer utskrift</button>
+<button type="button" id="o4-clear-btn" onclick="clearOutput('o4-output')">Tøm utskrift</button>
+<div id="o4-output"></div>
+<hr>
+<h2>Oppgave 5:</h2>
+<p>Lag en app som skriver ut alle tall mellom 0 og 100 som er delelig med 8 eller 3.</p>
+<button type="button" id="o5-submit-btn" onclick="generateNumbersDivisibleBy8Or3()">Generer utskrift</button>
+<button type="button" id="o5-clear-btn" onclick="clearOutput('o5-output')">Tøm utskrift</button>
+<div id="o5-output"></div>
+<hr>
+<h2>Oppgave 6:</h2>
+<p>Legg inn en valgfri tekst og angi hvor mange ganger du ønsker at den skal skrives ut.</p>
+<input type="text" id="o6-input-text" placeholder="Skriv inn tekst">
+<input type="number" id="o6-input-number" placeholder="Antall ganger">
+<button type="button" id="o6-submit-btn" onclick="generateCustomOutput()">Generer utskrift</button>
+<button type="button" id="o6-clear-btn" onclick="clearOutput('o6-output')">Tøm utskrift</button>
+<div id="o6-output"></div>
+<hr>
+<h2>Oppgave 7:</h2>
+<p>Lag et program som skriver ut <br>
+    0 x 0 = 0<br>
+    1 x 1 = 1<br>
+    Linje for linje. Bruk alle tallene i intervallet 0-100.
+</p>
+<button type="button" id="o7-submit-btn" onclick="generateMultiplicationTable()">Generer utskrift</button>
+<button type="button" id="o7-clear-btn" onclick="clearOutput('o7-output')">Tøm utskrift</button>
+<div id="o7-output"></div>
+<hr>
+<h2>Oppgave 8:</h2>
+<p>Lag en app som skriver ut "Jeg er tall nummer x der x varierer fra 1-7.</p>
+<button type="button" id="o8-submit-btn" onclick="generateNumberStatements()">Generer utskrift</button>
+<button type="button" id="o8-clear-btn" onclick="clearOutput('o8-output')">Tøm utskrift</button>
+<div id="o8-output"></div>
+<hr>
+<h2>Oppgave 9:</h2>
+<p>Lag en app som skriver ut "Jeg er tall nummer x der x varierer mellom 12 og 98, og gjør det slik at kun hvert 5. tall skrives ut.</p>
+<button type="button" id="o9-submit-btn" onclick="generateNumberStatementsEach5thNumberBetween12And98()">Generer utskrift</button>
+<button type="button" id="o9-clear-btn" onclick="clearOutput('o9-output')">Tøm utskrift</button>
+<div id="o9-output"></div>
+<hr>
+<h2>Oppgave 10:</h2>
+<p>Lag en app som skriver ut alle tall mellom et start og et slutt-tall.</p>
+<input type="number" id="o10-input-start" placeholder="Start tall">
+<input type="number" id="o10-input-end" placeholder="Slutt tall">
+<button type="button" id="o10-submit-btn" onclick="generateNumberStatementsBetween()">Generer utskrift</button>
+<button type="button" id="o10-clear-btn" onclick="clearOutput('o10-output')">Tøm utskrift</button>
+<div id="o10-output"></div>
+
+<script src="index.js"></script>
+</body>
+</html>

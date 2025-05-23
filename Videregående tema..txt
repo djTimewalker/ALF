@@ -1,0 +1,31 @@
+Videregående tema.
+
+For å kunne sette opp en JSON-server slik at vi kan ha en prototype-database å hente data fra, må vi først kjenne til følgende tema:
+
+* JSON - hva er det?
+* Async programmering - Når vi må vente på at noe skal skje, før koden kjører videre (Promises, Async/Await)
+* fetch() - innebygget funksjon/objekt som henter data for oss fra ulike kilder som en fil, ekstern api, eller en database.
+
+* da er vi klar for å sette opp en JSON-server (mock database)
+
+Her er en liste over korte men gode videoer som illustrerer de ulike temaene. Jeg har selv laget en video og et leksjonsnotat om JSON-server, men det krever at dere kjenner til de andre temaene først. 
+
+Det skal sies at fremgangsmåten er den samme hver gang, så om en ikke skjønner hver bidige kodelinje helt fra starten av, så kommer en langt ved å kopiere strukturen.
+
+Anbefaler for øvrig sterkt Bro Code sine kurs på YT:
+
+JSON: 
+https://www.youtube.com/watch?v=r4MLHHLctKw&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv&index=77
+
+Promises:
+https://www.youtube.com/watch?v=NOzi4wBHn0o&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv&index=75
+
+Async:
+https://www.youtube.com/watch?v=9j1dZwFEJ-c&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv&index=76
+
+fetch():
+https://www.youtube.com/watch?v=37vxWr0WgQk&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv&index=79
+ 
+
+Nå er man klar for JSON-server :D
+Jeg legger ut litt info om dette senere.

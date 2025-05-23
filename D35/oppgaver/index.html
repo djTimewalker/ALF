@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+
+    <h1>Oppgaver</h1>
+    <p>Løkker del 2 - Løkker inni løkker</p>
+
+    <h2>Oppgave 1a</h2>
+    <p>a) Lag et program med en while-løkke som summerer alle hele tall ( 1 + 2 + 3...). Løkken skal avsluttes når summen
+    passerer 1238 (Hint: sum > 1238). Skriv ut det siste tallet som gjorde at løkke passerte målverdien.
+    </p>
+    <p>Klikk på "Genererer!"-knappen for å skrive ut det siste tallet</p>
+    <button type="button" id="o1a-submit-btn" onclick="generateResult()">Genererer!</button>
+    <p id="o1a-output"></p>
+    <hr>
+    <h2>Oppgave 1b</h2>
+    <p>b) Lag et program med en while-løkke som summerer alle partall ( 1 + 2 + 3...). Løkken skal avsluttes når summmen >= 2250.  (Hint: sum > 1238). Skriv ut det partallet som gjorde at summen overstiger grensen på 2250.
+    </p>
+    <p>Klikk på "Genererer!"-knappen for å skrive ut det siste tallet</p>
+    <button type="button" id="o1b-submit-btn" onclick="generateResult2()">Genererer!</button>
+    <p id="o1b-output"></p>
+    <hr>
+    <h2>Oppgave 2a</h2>
+    <p>Lag et program som skriver ut den lille gangetabellen (1-10). Lag en tabell, med de rette html tagsene.</p>
+    <p>Klikk på "Genererer!"-knappen for å skrive ut gangetabellen</p>
+    <button type="button" id="o2a-submit-btn" onclick="generateResult3()">Genererer!</button>
+    <div id="o2a-output"></div>
+    <hr>
+    <h2>Oppgave 2b</h2>
+    <p>Lag et program som skriver ut den store multiplikasjonstabellen (fra 10 - 19).</p>
+    <p>Klikk på "Genererer!"-knappen for å skrive ut gangetabellen</p>
+    <button type="button" id="o2b-submit-btn" onclick="generateResult4()">Genererer!</button>
+    <div id="o2b-output"></div>
+    <hr>
+    <h2>Oppgave 3</h2>
+    <p>Samme som oppgave 2, men nå med *** for verdiene langs diagonalen (1-1, 2-2, 3-3, osv) Tips: Continue...</p>
+    <p>Klikk på "Genererer!"-knappen for å skrive ut gangetabellen</p>
+    <button type="button" id="o3-submit-btn" onclick="generateResult5()">Genererer!</button>
+    <div id="o3-output"></div>
+    <hr>
+    <h2>Oppgave 4abc</h2>
+    <p>
+        Under er teksten til en såkalt barne-regle.<br>
+        Mye av teksten gjentas.<br>
+        Bruk løkker for å skrive ut teksten på en enklestmulig måte<br><br>
+
+        "10 green bottles, hanging on a wall,<br>
+        10 green bottles, hanging on a wall,<br>
+        If 1 green bottle were to accidentally fall<br>
+        There'd be 9 green bottles, hanging on the wall<br><br>
+        ... og så videre...<br><br>
+        1 green bottles, hanging on a wall,<br>
+        1 green bottles, hanging on a wall,<br>
+        If 1 green bottle were to accidentally fall<br>
+        There'd be 0 green bottles, hanging on the wall"<br><br>
+    </p>
+    <br>
+    <p>
+    Ekstra utfordring:<br>
+    b) I siste verset står det '1 green bottles' altså flertalls-s-<br>
+    Dette er jo ikke korrekt engelsk. Klarer du å endre det<br>
+    slik at det settes inn flertalls-s'er kun der det skal være?<br>
+    <br>
+    c) Utvid programmet med en tekstboks slik at brukeren selv<br>
+     kan bestemme antallet flasker reglen skal begynne på.
+    </p>
+    <p>Klikk på "Genererer!"-knappen for å skrive ut teksten</p>
+    <label for="o4-input">Skriv inn antall flasker (1-10):</label>
+    <input type="number" id="o4-input-number" placeholder="Flasker" min="1" max="10">
+    <br>
+    <button type="button" id="o4-submit-btn" onclick="generateResult6()">Genererer!</button>
+    <br><br>
+    <div id="o4-output"></div>
+    <hr>
+    <h2>Oppgave 5</h2>
+    <p>Lag et program som finner ut om et tall er et primtall</p>
+    <label for="o5-input-number">Skriv inn et tall:</label>
+    <input type="number" id="o5-input-number" placeholder="Tall">
+    <br>
+    <p>Klikk på "Sjekk!"-knappen for å skrive ut teksten</p>
+    <button type="button" id="o5-submit-btn" onclick="checkPrimeNumber()">Sjekk!</button>
+    <br><br>
+    <div id="o5-output"></div>
+    <hr>
+    <h2>Oppgave 6</h2>
+    <p>Skriv ut alle 2-sifrede kombinasjoner av tallene 1-5</p>
+    <p>Klikk på "Genererer!"-knappen for å skrive ut teksten</p>
+    <button type="button" id="o6-submit-btn" onclick="generateResult7()">Genererer!</button>
+    <br><br>
+    <div id="o6-output"></div>
+    <hr>
+    <h2>Oppgave 7</h2>
+    <p>Lag et program som skriver ut alle 3-sifrede kombinasjoner.</p>
+    <p>Klikk på "Genererer!"-knappen for å skrive ut teksten</p>
+    <button type="button" id="o7-submit-btn" onclick="generateResult8()">Genererer!</button>
+    <br><br>
+    <div id="o7-output"></div>
+    <hr>
+    <h2>Oppgave 8</h2>
+    <p>Skriv inn 2 nummer og beregn summen av talle partall som inngår i intervallet mellom de 2.</p>
+    <label for="o8-input-start">Startnummer:</label>
+    <input type="number" id="o8-input-start" placeholder="Startnummer">
+    <br>
+    <label for="o8-input-end">Slutt nummer:</label>
+    <input type="number" id="o8-input-end" placeholder="Slutt nummer">
+    <br>
+    <button type="button" id="o8-submit-btn" onclick="generateResult9()">Genererer!</button>
+    <br><br>
+    <div id="o8-output"></div>
+    <hr>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

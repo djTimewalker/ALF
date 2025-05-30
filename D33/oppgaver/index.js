@@ -143,13 +143,17 @@ function renderTollMoms() {
     if (dollar < 0 || kurs < 0) {
         o8Output.textContent = "Vennligst skriv inn et gyldig tall."
     } else {
+        if (isNaN(kurs)) {
+            kurs = 10
+        }
         o8Output.textContent = "Sluttbeløpet i NOK er: " + tollMoms(dollarToNok(dollar, kurs))
     }
 }
 
 
-function dollarToNok(dollar, kurs = 10) {
+function dollarToNok(dollar, kurs) {
     const nok = (dollar * kurs).toFixed(2)
+    // console.log(dollar, kurs, nok)
     return parseFloat(nok)
 }
 
@@ -157,5 +161,6 @@ function tollMoms(nok) {
     const toll = 249
     const moms = 1.25
     const sluttsum = (nok + toll) * moms
+    // console.log(nok, toll, moms, sluttsum)
     return sluttsum.toFixed(2)
 }

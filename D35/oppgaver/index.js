@@ -133,13 +133,39 @@ function generateResult8() {
 }
 
 function generateResult9() {
-    let utskrift = ""
     let startNumber = Number(document.getElementById("o8-input-start").value)
     let endNumber = Number(document.getElementById("o8-input-end").value)
+    let sum = 0
     for (let i = startNumber; i <= endNumber; i++) {
         if (i % 2 === 0) {
-            utskrift += i + "<br>"
+            sum += i
         }
     }
-    document.getElementById("o8-output").innerHTML = utskrift
+    document.getElementById("o8-output").innerHTML = `Summen av alle partall mellom ${startNumber} og ${endNumber} er ${sum}.`
+}
+
+function generateResult10() {
+    let utskrift = ""
+    let startNumber = Number(document.getElementById("o9-input-start").value)
+    let endNumber = Number(document.getElementById("o9-input-end").value)
+    let sum = 0
+    for (let i = startNumber; i <= endNumber; i++) {
+            let isPrime = true
+            let number = i
+            if (number < 2) {
+                isPrime = false
+            } else {
+                for (let i = 2; i <= Math.sqrt(number); i++) {
+                    if (number % i === 0) {
+                        isPrime = false
+                        break
+                    }
+                }
+            }
+
+        if (isPrime) {
+                sum += number
+            }
+        }
+        document.getElementById("o9-output").innerHTML = `Summen av alle primtall mellom ${startNumber} og ${endNumber} er ${sum}.`
 }

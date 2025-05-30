@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+    <h1>Oppgaver</h1>
+    <p>Mer om arrays</p>
+    <h2>Oppgave 1</h2>
+    <p>a) Vis navn og fødselsår for alle hundene i listen.</p>
+    <button type="button" onclick="renderDogsByNameAndBirthYear()">Vis hunder</button>
+    <div id="o1a-output"></div>
+    <p>b) Vis navn og foreldre for alle hundene i listen.</p>
+    <button type="button" onclick="renderDogsByNameAndParentsNames()">Vis hunder</button>
+    <div id="o1b-output"></div>
+    <p>c) Vis navn og alder for alle hundene i listen.</p>
+    <button type="button" onclick="renderDogsByNameAndAge()">Vis hunder</button>
+    <div id="o1c-output"></div>
+    <h2>Oppgave 2</h2>
+    <p>a) Vis navn, adresse og telefonnummer for alle medlemmene i Andefamilien.</p>
+    <button type="button" onclick="renderDuckFamily()">Vis Andefamilien</button>
+    <div id="o2a-output"></div>
+    <p>b) Vis privat e-post for alle medlemmene i Andefamilien.</p>
+    <button type="button" onclick="renderDuckFamilyWithPrivateEmail()">Vis Andefamilien</button>
+    <div id="o2b-output"></div>
+    <p>c) Vis jobbtelefon for alle medlemmene i Andefamilien.</p>
+    <button type="button" onclick="renderDuckFamilyWithWorkPhone()">Vis Andefamilien</button>
+    <div id="o2c-output"></div>
+    <h2>Oppgave 3</h2>
+    <p>a) Vis navnet på alle spillerne i laget, deres draktnummer og hvilken posisjon de spiller.</p>
+    <button type="button" onclick="renderTeamNamesAndPositions()">Vis lagmedlemmer</button>
+    <div id="o3a-output"></div>
+    <p>b) Vis navnet på alle angrepsspillerne i laget, deres draktnummer og hvilken posisjon de spiller.</p>
+    <button type="button" onclick="renderTeamNamesAndPositionAngrepsspillere()">Vis lagmedlemmer</button>
+    <div id="o3b-output"></div>
+    <p>c) Velg ønsket posisjon og vis lagmedlemmer</p>
+    <select id="position-select">
+        <option value="Keeper">Keeper</option>
+        <option value="Forsvarsspiller">Forsvarsspiller</option>
+        <option value="Midtbanespiller">Midtbanespiller</option>
+        <option value="Angrepsspiller">Angrepsspiller</option>
+    </select>
+    <button type="button" onclick="renderTeamMembersByPosition()">Vis lagmedlemmer</button>
+    <div id="o3c-output"></div>
+    <p>d) Utvid oppgaven til å skrive ut informasjonen i stylede "cards" slik vi har øvd på tidligere.</p>
+    <button type="button" onclick="renderTeamMembersWithCards()">Vis lagmedlemmer</button>
+    <div id="o3d-output"></div>
+
+
+        <script src="script.js"></script>
+</body>
+</html>

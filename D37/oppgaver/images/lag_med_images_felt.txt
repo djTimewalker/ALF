@@ -6,7 +6,7 @@ let lag = [
         Etternavn: "Dyngeland",
         Høyde: 184,
         Nasjonalitet: "Norge",
-        Født: "07-10-1995"
+        Født: "07-10-1995",
         Image: "images/1_Mathias_Dyngeland.png",
     },
     {

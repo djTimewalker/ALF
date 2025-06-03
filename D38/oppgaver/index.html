@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+
+    <h1>Oppgaver</h1>
+    <p>Array og array-metoder</p>
+    <p>ta utgangspunkt i arrayet</p>
+    <p><code>let arr = [1, 2.3, -4, 5.7, -7.2, 13, 59]</code></p>
+    <h2>Oppgave 1</h2>
+    <p>a) Bruk av for-of løkke for å iterere over et array og finne den høyeste verdien vha if-setning.</p>
+    <button type="button" onclick="generateResultWithMaximumValue()">Sjekk!</button>
+    <p id="o1a-output"></p>
+    <p>b) Bruk en innebygget metode for å sortere i stigende rekkefølge.</p>
+    <button type="button" onclick="generateResultWithSortedArray()">Skriv ut!</button>
+    <p id="o1b-output"></p>
+    <p>c) Bruk en innebygget metode for å reversere</p>
+    <button type="button" onclick="generateResultWithReversedArray()">Skriv ut!</button>
+    <p id="o1c-output"></p>
+    <p>d) Legg til et element med verdien 92 til arrayet</p>
+    <button type="button" onclick="addElementToArray()">Legg til!</button>
+    <p id="o1d-output"></p>
+    <p> e) Finn den nye lengden på arrayet nå</p>
+    <button type="button" onclick="getArrayLength()">Skriv ut!</button>
+    <p id="o1e-output"></p>
+    <p> d) Fjern det første elementet i arrayet</p>
+    <button type="button" onclick="removeFirstElement()">Fjern!</button>
+    <p id="o1f-output"></p>
+    <p> g) Sjekk om arr faktisk er et Array</p>
+    <button type="button" onclick="checkIfArray()">Sjekk!</button>
+    <p id="o1g-output"></p>
+    <p> h) Lag et nytt array som heter absoluttVerdier</p>
+    <button type="button" onclick="generateAbsoluteValuesArray()">Lag array!</button>
+    <p id="o1h-output"></p>
+    <hr>
+    <h2>Oppgave 2</h2>
+    <p>Fotball spillere, men med array metoder</p>
+    <p> 1) Lag en lang tekststreng som inneholder alle HTML-elementene og dataene i en lang template literal.</p>
+    <button type="button" onclick="renderTeamMembersWithCards()">Lag HTML!</button>
+    <div id="o2a-output"></div>
+    <p> 2) Bruk metodene createElement() og appendChild() for å lage HTML-elementene.</p>
+   <button type="button" onclick="renderTeamMembersWithDOM()">Lag HTML med DOM!</button>
+   <div id="o2b-output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

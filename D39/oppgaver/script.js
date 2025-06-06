@@ -31,7 +31,13 @@ document.getElementById("o2a1-output").innerText = `${newSortedArray} \n ${newSo
 let newToSortedArray = randomNumbersArray.slice().toSorted((a, b) => a - b)
 document.getElementById("o2a2-output").innerText = newToSortedArray
 
+let newSortedArrayDescending = randomNumbersArray.slice().sort((a, b) => b - a)
+let newSortedCatsArrayDescending = catNamesArray.slice().sort().reverse()
+let newToSortedCatsArrayDescending = catNamesArray.toSorted().reverse()
+document.getElementById("o2b1-output").innerText = `${newSortedArrayDescending} \n${newSortedCatsArrayDescending} \n${newToSortedCatsArrayDescending}`
 
+let newToSortedArrayDescending = randomNumbersArray.toSorted((a, b) => b - a)
+document.getElementById("o2b2-output").innerText = newToSortedArrayDescending
 function renderArray() {
     let output = ""
     randomNumbersArray.forEach(number => {

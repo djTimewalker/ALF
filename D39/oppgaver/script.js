@@ -24,11 +24,11 @@ catNamesArray.map(cat => {
 
 let newSortedArray = randomNumbersArray.slice().sort((a, b) => a - b)
 let newSortedCatsArray = catNamesArray.slice().sort()
-let newToSortedCatsArray = catNamesArray.slice().toSorted()
+let newToSortedCatsArray = catNamesArray.toSorted()
 document.getElementById("o2a1-output").innerText = `${newSortedArray} \n ${newSortedCatsArray} \n ${newToSortedCatsArray}`
 
 
-let newToSortedArray = randomNumbersArray.slice().toSorted((a, b) => a - b)
+let newToSortedArray = randomNumbersArray.toSorted((a, b) => a - b)
 document.getElementById("o2a2-output").innerText = newToSortedArray
 
 let newSortedArrayDescending = randomNumbersArray.slice().sort((a, b) => b - a)

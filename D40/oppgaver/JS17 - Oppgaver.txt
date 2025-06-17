@@ -1,0 +1,143 @@
+Her er to samlinger (Arrays) dere kan bruke.
+
+
+
+let people = [
+  {
+    id: 1,
+    name: "Alice",
+    age: 30,
+    occupation: "Engineer",
+    contact: {
+      email: "alice@example.com",
+      phone: "123-456-7890"
+    },
+    address: {
+      city: "New York",
+      country: "USA"
+    }
+  },
+  {
+    id: 2,
+    name: "Bob",
+    age: 25,
+    occupation: "Designer",
+    contact: {
+      email: "bob@example.com",
+      phone: "987-654-3210"
+    },
+    address: {
+      city: "Los Angeles",
+      country: "USA"
+    }
+  },
+  {
+    id: 3,
+    name: "Charlie",
+    age: 35,
+    occupation: "Teacher",
+    contact: {
+      email: "charlie@example.com",
+      phone: "555-555-5555"
+    },
+    address: {
+      city: "Chicago",
+      country: "USA"
+    }
+  },
+  {
+    id: 4,
+    name: "Diana",
+    age: 28,
+    occupation: "Doctor",
+    contact: {
+      email: "diana@example.com",
+      phone: "222-333-4444"
+    },
+    address: {
+      city: "Houston",
+      country: "USA"
+    }
+  }
+];
+
+
+let cars = [
+  {
+    id: 1,
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    owner: {
+      name: "Alice",
+      id: 1
+    },
+    specs: {
+      color: "Blue",
+      engine: "1.8L",
+      transmission: "Automatic"
+    }
+  },
+  {
+    id: 2,
+    make: "Honda",
+    model: "Civic",
+    year: 2018,
+    owner: {
+      name: "Bob",
+      id: 2
+    },
+    specs: {
+      color: "Red",
+      engine: "2.0L",
+      transmission: "Manual"
+    }
+  },
+  {
+    id: 3,
+    make: "Ford",
+    model: "Focus",
+    year: 2021,
+    owner: {
+      name: "Charlie",
+      id: 3
+    },
+    specs: {
+      color: "White",
+      engine: "1.5L",
+      transmission: "Automatic"
+    }
+  },
+  {
+    id: 4,
+    make: "Tesla",
+    model: "Model 3",
+    year: 2022,
+    owner: {
+      name: "Diana",
+      id: 4
+    },
+    specs: {
+      color: "Black",
+      engine: "Electric",
+      transmission: "Automatic"
+    }
+  }
+];
+
+Oppgave 1 a)
+
+Benytt .map metoden til å bla gjennom person-arrayet, og skriv ut passende informasjon om hver person. Style utskriften av hver person som et 'card' med h1 overskrift (navn) og h2 occupation, pluss litt mer. Sett en bakgrunnsfarge på kortet, og gjerne en skygge effekt, og gjerne en :hover effect.
+
+1b) Lag en egen funksjon printOut() som skriver ut ett 'card' til nettsiden. Denne skal du så benytte når du map'er gjennom arrayene over
+
+1c)
+ 
+Benytte .filter metoden til å skrive ut passende informasjon om de(n) som er 'Teacher'. Bruk gjerne samme typen card som over.
+
+------------------------------------------
+
+Oppgave 2 a) Benytt .map metoden for å skrive ut 'make', 'model' 'owner' og 'engine' for hver av bilene i det andre arrayet.
+
+
+2b) Prøv deg på de andre metodene også, som .some .every .find som vi så på sist.

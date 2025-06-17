@@ -1,0 +1,134 @@
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.calculator-container {
+    background-color: lightsteelblue;
+    display: grid;
+    grid-template-areas:
+    'header'
+    'display'
+    'pad';
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    width: 250px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+    color: brown;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 25px;
+}
+
+.display {
+    grid-area: display;
+    height: 3rem;
+    width: 15rem;
+    background-color: black;
+    border: 2px solid darkgrey;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    color: white;
+    text-align: right;
+}
+
+.pad {
+    grid-area: pad;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5px;
+    padding: 20px;
+    background-color: seagreen;
+    width: 200px;
+    gap: 2px;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 0 10px 10px 0;
+    color: black;
+    font-size: 2rem;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.operator {
+    background-color: lightsalmon;
+}
+
+.number {
+    background-color: whitesmoke;
+}
+
+.sum {
+    background-color: lightseagreen;
+    grid-row: span 2;
+}
+
+.clear {
+    background-color: red;
+}

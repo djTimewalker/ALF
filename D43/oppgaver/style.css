@@ -1,0 +1,18 @@
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.user-card .weather-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5em 0.2em;
+    box-shadow: grey 5px 5px 5px;
+    background-color: wheat;
+    width: auto;
+
+}
+
+.user-card:hover {
+    transform: scale(1.03);
+}

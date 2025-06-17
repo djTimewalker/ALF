@@ -1,0 +1,4 @@
+Dette er en superkul testfil for å vise at en kan lese fra filer på harddisken, og benytte det som fyll på en nettside. 
+fetch()-me some snacks, please!
+
+[Fra inne i tekstfilen 'Tekstfil.txt']

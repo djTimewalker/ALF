@@ -1,0 +1,82 @@
+Oppgaver med map og filter
+
+Array 1
+
+const countries = [
+  { name: "Japan", capital: "Tokyo", inhabitants: 126300000, flag: "https://flagcdn.com/jp.svg", funFact: "Japan is home to over 6,800 islands." },
+  { name: "Canada", capital: "Ottawa", inhabitants: 38000000, flag: "https://flagcdn.com/ca.svg", funFact: "Canada has the longest coastline in the world." },
+  { name: "Brazil", capital: "Brasília", inhabitants: 214000000, flag: "https://flagcdn.com/br.svg", funFact: "Brazil is the only country in South America that speaks Portuguese." },
+  { name: "Australia", capital: "Canberra", inhabitants: 26000000, flag: "https://flagcdn.com/au.svg", funFact: "Australia has more kangaroos than people." },
+  { name: "Germany", capital: "Berlin", inhabitants: 83000000, flag: "https://flagcdn.com/de.svg", funFact: "Germany is home to over 1,500 varieties of beer." },
+  { name: "India", capital: "New Delhi", inhabitants: 1400000000, flag: "https://flagcdn.com/in.svg", funFact: "India is the world's largest democracy." },
+  { name: "South Africa", capital: "Pretoria", inhabitants: 60000000, flag: "https://flagcdn.com/za.svg", funFact: "South Africa has 11 official languages." },
+  { name: "Italy", capital: "Rome", inhabitants: 59000000, flag: "https://flagcdn.com/it.svg", funFact: "Rome is home to the smallest country in the world, Vatican City." },
+  { name: "USA", capital: "Washington, D.C.", inhabitants: 331000000, flag: "https://flagcdn.com/us.svg", funFact: "The U.S. has the highest number of immigrants in the world." },
+  { name: "France", capital: "Paris", inhabitants: 67000000, flag: "https://flagcdn.com/fr.svg", funFact: "France is the most visited country in the world." }
+];
+
+-------------------------
+
+Array 2
+
+const animals = [
+  { name: "Elephant", habitat: "Savannah", details: { diet: "Herbivore", lifespan: "60-70 years", weight: "6000 kg" } },
+  { name: "Penguin", habitat: "Antarctica", details: { diet: "Carnivore", lifespan: "15-20 years", weight: "30 kg" } },
+  { name: "Tiger", habitat: "Forests", details: { diet: "Carnivore", lifespan: "10-15 years", weight: "220 kg" } },
+  { name: "Kangaroo", habitat: "Australia", details: { diet: "Herbivore", lifespan: "6-8 years", weight: "85 kg" } },
+  { name: "Dolphin", habitat: "Ocean", details: { diet: "Carnivore", lifespan: "40-50 years", weight: "300 kg" } },
+  { name: "Panda", habitat: "Mountains", details: { diet: "Herbivore", lifespan: "20 years", weight: "100 kg" } },
+  { name: "Polar Bear", habitat: "Arctic", details: { diet: "Carnivore", lifespan: "25-30 years", weight: "450 kg" } },
+  { name: "Koala", habitat: "Australia", details: { diet: "Herbivore", lifespan: "10-15 years", weight: "15 kg" } },
+  { name: "Cheetah", habitat: "Grasslands", details: { diet: "Carnivore", lifespan: "10-12 years", weight: "60 kg" } },
+  { name: "Owl", habitat: "Forests", details: { diet: "Carnivore", lifespan: "10 years", weight: "1.5 kg" } }
+];
+
+-----------------------------------------------------------------------------
+
+Array 3
+
+const movies = [
+  { title: "Inception", actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt"], grossIncome: "$829.9M", releaseYear: 2010, genre: "Sci-Fi" },
+  { title: "The Dark Knight", actors: ["Christian Bale", "Heath Ledger"], grossIncome: "$1.005B", releaseYear: 2008, genre: "Action" },
+  { title: "Titanic", actors: ["Leonardo DiCaprio", "Kate Winslet"], grossIncome: "$2.195B", releaseYear: 1997, genre: "Romance" },
+  { title: "Avatar", actors: ["Sam Worthington", "Zoe Saldana"], grossIncome: "$2.922B", releaseYear: 2009, genre: "Sci-Fi" },
+  { title: "The Lion King", actors: ["Matthew Broderick", "Jeremy Irons"], grossIncome: "$968.5M", releaseYear: 1994, genre: "Animation" },
+  { title: "Forrest Gump", actors: ["Tom Hanks", "Robin Wright"], grossIncome: "$678.2M", releaseYear: 1994, genre: "Drama" },
+  { title: "The Avengers", actors: ["Robert Downey Jr.", "Chris Evans"], grossIncome: "$1.519B", releaseYear: 2012, genre: "Action" },
+  { title: "Jurassic Park", actors: ["Sam Neill", "Laura Dern"], grossIncome: "$1.046B", releaseYear: 1993, genre: "Adventure" },
+  { title: "Frozen", actors: ["Kristen Bell", "Idina Menzel"], grossIncome: "$1.282B", releaseYear: 2013, genre: "Animation" },
+  { title: "The Godfather", actors: ["Marlon Brando", "Al Pacino"], grossIncome: "$250.1M", releaseYear: 1972, genre: "Crime" }
+];
+
+---------------------------------------------
+
+Oppgave 1
+
+Lag en nettside for Countries-tabellen (Array'ene) over.
+
+Presenter noen viktige egenskaper fra hver post i Countries-tabellen i et kort 'card', som tidligere
+-------------
+
+Oppgave 2
+
+Lag en nettside for Animals-tabellen (Array'ene) over.
+
+Presenter noen viktige egenskaper fra hver post i Animals-tabellen i et kort 'card', som tidligere
+Legg til en nedtrekksmeny der brukeren kan velge å filtrere på 'habitat'
+
+2b) Jeg har lagt ved noen bilder i mappen 'Dyrebilder'. Se om du kan legge disse til i arrayet slik at hvert dyr også får hvert sitt bilde, slik som landene allerede har. 
+Tips: <img src="...">
+
+-----------------
+
+Oppgave 3
+
+Lag en nettside for Movie-tabellen (Array'ene) over.
+
+Presenter noen viktige egenskaper fra hver post i Movie-tabellen i et kort 'card', som tidligere
+Legg til en nedtrekksmeny der brukeren kan velge å filtrere på 'genre'
+
+3c) Om du får tid, finn en passende Moviposter som bilde, eller et bilde av skuespiller fra filmen slik som i de andre 2 oppgavene.
+
+

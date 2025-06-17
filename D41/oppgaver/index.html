@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+
+    <h1>Oppgaver</h1>
+    <p>Bruk av local storage, fetch av txt og JSON</p>
+    <h2>Oppgave 1:</h2>
+    <p>Legg inn fornavn og etternavn og velg "Lagre" eller "Tøm" verdier i localstorage</p>
+    <input type="text" placeholder="Fornavn" id="o1-input-fname">
+    <input type="text" placeholder="Etternavn" id="o1-input-lname">
+    <button type="button" onclick="saveNameToLocalStorage()">Lagre!</button>
+    <button type="button" onclick="clearLocalStorage()">Tøm!</button>
+    <p id="o1-output"></p>
+    <hr>
+    <h2>Oppgave 2:</h2>
+    <p>Velg bakgrunnsfarge og klikk "Lagre" eller "Nullstill"</p>
+    <select name="bgcolor" id="bgcolor">
+        <option value="red">Rød</option>
+        <option value="yellow">Gul</option>
+        <option value="blue">Blå</option>
+        <option value="green">Grønn</option>
+    </select>
+    <button type="button" onclick="saveColorToLocalStorageAndSet()">Lagre</button>
+    <button type="button" onclick="clearLocalStorage()">Nullstill</button>
+    <hr>
+    <h2>Oppgave 3:</h2>
+    <p>Fetch og behandle data fra text-fil</p>
+    <p> a) Bruk fetch() til å lese inn innholdet av filen, og skriv det ut på nettsiden. Fyll gjerne på med ledetekst ala "1 januar: &lt;kroner&gt; kr..."</p>
+    <button type="button" onclick="o3aPrintOut()">Skriv ut!</button>
+    <p id="o3a-output"></p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

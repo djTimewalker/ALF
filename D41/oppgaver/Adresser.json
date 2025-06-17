@@ -1,0 +1,60 @@
+[
+    {
+    "id":1,
+    "fornavn": "Donald",
+    "etternavn": "Duck",
+    "adresse": {
+      "gate": "Andeby Villa",
+      "nummer": 13,
+      "poststed": "Andeby",
+      "postnummer": 1313
+    }
+},
+
+    {
+    "id":2,
+    "fornavn": "Dolly",
+    "etternavn": "Duck",
+    "adresse": {
+      "gate": "Andeby Villa",
+      "nummer": 13,
+      "poststed": "Andeby",
+      "postnummer": 1313
+    }
+},
+    
+    {
+    "id":3,
+    "fornavn": "Ole",
+    "etternavn": "Duck",
+    "adresse": {
+      "gate": "Andeby Villa",
+      "nummer": 13,
+      "poststed": "Andeby",
+      "postnummer": 1313
+    }
+},
+    {
+    "id":4,
+    "fornavn": "Dole",
+    "etternavn": "Duck",
+    "adresse": {
+      "gate": "Andeby Villa",
+      "nummer": 13,
+      "poststed": "Andeby",
+      "postnummer": 1313
+    }
+},
+    
+    {
+    "id":5,
+    "fornavn": "Doffen",
+    "etternavn": "Duck",
+    "adresse": {
+      "gate": "Andeby Villa",
+      "nummer": 13,
+      "poststed": "Andeby",
+      "postnummer": 1313
+    }
+}
+]

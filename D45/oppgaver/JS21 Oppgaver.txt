@@ -1,0 +1,56 @@
+Oppgaver
+-------------------------
+
+1. Utfordring med .addEventListener():
+
+Lag et knapp-element i HTML med id-en "myButton".
+
+Bruk .addEventListener() for å lytte etter et klikk på knappen, og logg en melding i konsollen når knappen blir klikket.
+
+Legg til en annen knapp og lag en annen event-lytter for en mouseover-hendelse.
+
+__________________________________________________________
+
+2. Utfordring med spredningsoperator (spread operator):
+
+Lag et array med tallene [1, 2, 3].
+
+Bruk spredningsoperatoren for å lage et nytt array med et ekstra tall lagt til på slutten.
+
+Bruk spredningsoperatoren for å lage en kopi av det opprinnelige arrayet, og legg deretter til et nytt tall i kopien.
+
+______________________________________________________
+
+3. Utfordring med samlingsoperator (rest operator):
+
+Lag en funksjon som tar inn et ukjent antall argumenter ved å bruke samlingsoperatoren.
+
+Beregn summen av alle argumentene som blir sendt inn i funksjonen, og returner resultatet.
+
+Test funksjonen med et varierende antall argumenter.
+
+_____________________________________________________
+
+4. Utfordring med destrukturering av objekter:
+
+Lag et objekt med egenskapene name, age og city.
+
+Bruk destrukturering for å hente verdiene av name og city ut i egne variabler.
+
+Lag en funksjon som tar inn et objekt som argument og bruker destrukturering for å få tilgang til og logge egenskapene.
+
+______________________________________________
+
+5. Utfordring med destrukturering av arrayer:
+
+Lag et array med tallene [1, 2, 3, 4, 5].
+
+Bruk array-destrukturering for å hente ut det første og det siste elementet i egne variabler.
+
+Lag en funksjon som tar inn et array som argument og bruker destrukturering for å få tilgang til og logge spesifikke elementer i arrayet.
+_____________________________________________
+
+
+6. Lag ferdig en knapp i html. Når en klikker på den knappen, skal det opprettes en ny knapp, som så får sin egen nye eventListener() og kjører en funksjon som skriver ut "dette er fra den nyopprettede knappen!" til consol'et 
+(gjerne også til vår vanlige <div id="utskrift"> )
+_______________________

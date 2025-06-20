@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppgaver</title>
+</head>
+<body>
+
+    <h1>Oppgaver</h1>
+    <p>Async and await, fetch, json</p>
+    <h2>Oppgave 1:</h2>
+    <p> a) Last inn data fra JSON filen ved hjelp av fetch og skriv ut innholdet på en nettside.</p>
+    <button type="button" onclick="loadAndDisplayData()">Last inn data</button>
+    <div class="card-container" id="o1a-output"></div>
+    <hr>
+    <p> b) Last inn JSON-filen ved å benytte fetch() og Async and Await</p>
+    <button type="button" onclick="loadAndDisplayDataAsync()">Last inn data (Async/Await)</button>
+    <div class="card-container" id="o1b-output"></div>
+    <hr>
+    <h2>Oppgave 2:</h2>
+    <p> a) Lag en funksjon som henter data fra en API og viser det på nettsiden.</p>
+    <button type="button" onclick="fetchAPIData()">Hent API data</button>
+    <div class="card-container" id="o2a-output"></div>
+    <p> b) Lag en funksjon som henter data fra en API ved hjelp av Async/Await.</p>
+    <button type="button" onclick="fetchAPIDataAsync()">Hent API data (Async/Await)</button>
+    <div class="card-container" id="o2b-output"></div>
+    <hr>
+    <h2>Oppgave 3:</h2>
+    <p>Strømpriser - Ta utgangspunkt i et array med strømpriser, spotpris for hver dag i måneden</p>
+    <p> a) - Bruk så reduce-metoden for å summere prisene for hele måneden. <br>
+        Deretter kan du dele på antallet dager den måneden og presentere den<br>
+        gjennomsnittelige prisen den måneden. Ta vare på resultatet i en variabel,<br>
+        og skriv resultatet ut til console.log også. Bruk reduce-metoden for å summere prisene for hele måneden.</p>
+    <button type="button" onclick="calculateAveragePrice(stromPricesMay2025)">Beregn gjennomsnittlig strømpris</button>
+    <br><br>
+    <div class="card-container" id="o3a-output"></div>
+    <p> b) - Bruk så filter-metoden for å plukke ut prisene over 0.7 kr. Ta vare på resultatet i en variabel<br>
+        og skriv ut resultatet til console.log også.</p>
+    <button type="button" onclick="filterAbove200()">Filtrer over 2 kr</button>
+    <br>
+    <div class="card-container" id="o3b-output"></div>
+    <p> c) - Bruk toSorted for å sortere tallene i stigende rekkefølge. <br>
+        Ta vare på resultatet i en variabel, og skriv resultatet ut til console.log også.</p>
+    <button type="button" onclick="toSortedPrices()">Sorter priser</button>
+    <br>
+    <div class="card-container" id="o3c-output"></div>
+    <p> d) - Utform en nettside der du skriver ut informasjonen fra oppgavene over med forklarende tekst. Bruk 2 desimaler for gjennomsnittprisen.</p>
+    <button type="button" onclick="displaySummary()">Vis informasjon</button>
+    <br><br>
+    <div id="o3d-output"></div>
+    <hr>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
